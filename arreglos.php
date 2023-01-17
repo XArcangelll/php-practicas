@@ -21,8 +21,19 @@
   echo "<br>";
 
   for($i = 0;$i<count($valores);$i++){
-   echo $valores[$i];
-   echo "<br>";
+   echo $valores[$i] ."<br>";
+  }
+
+  $edades = array("Diego"=>25,"Penelope"=>21,"Nilou"=>20);
+
+  print_r($edades);
+  echo "<br>";
+  echo $edades["Diego"];
+  echo "<br>";
+
+  foreach($edades as $key => $value){
+      echo $key . "<br>";
+      echo $value . "<br>";
   }
 
 ?>
