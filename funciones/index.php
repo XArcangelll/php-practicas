@@ -21,7 +21,7 @@
 
 		<?php
 			include("operaciones.php");
-			validarCampos();
+			echo Multiplicar();
 		?>
 	</div>
 </body>
