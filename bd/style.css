@@ -54,10 +54,10 @@ input[type=submit]{
 input[type=checkbox]
 {
     display: inline-block;
-  /* Double-sized Checkboxes */
-  -ms-transform: scale(2); /* IE */
-  -moz-transform: scale(2); /* FF */
-  -webkit-transform: scale(2); /* Safari and Chrome */
+  /* Double-sized Checkboxes 
+  -ms-transform: scale(2); /* IE 
+  -moz-transform: scale(2); /* FF 
+  -webkit-transform: scale(2); /* Safari and Chrome 
   -o-transform: scale(2); /* Opera */
 }
 
