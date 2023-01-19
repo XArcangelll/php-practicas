@@ -6,15 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>insertar</title>
 
-    <style>
-        .deshabilitado{
-            color: #aaa;
-        }
-    </style>
+   
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<form  action="insertar.php" method="post" enctype="multipart/form-data">
+<div id="main-container">
+<form id="nuevo-pendiente-container" action="insertar.php" method="post" enctype="multipart/form-data">
     <input type="text" name="texto" id="texto">
     <input type="submit" value="Añadir Pendiente">
 </form>
@@ -80,7 +77,7 @@
             // echo '<div><form action=""><input type="checkbox">'. $texto .'</form></div>';
          }
          else{
-             die("Error al actualizar datos: " . $conexion->error);
+             die("Error al eliminar datos: " . $conexion->error);
          }  
       }
 
@@ -99,17 +96,10 @@
       if($resultado->num_rows > 0){
             while($row = $resultado->fetch_assoc()){
                 ?>
-                   <div>
-                        <form method="POST" id="form<?php echo $row['id']?>" action="">
-                             <input name="completar" value="<?php echo $row['id']?>" id="
-                             <?php echo $row['id']?>" 
-                             type="checkbox" onchange="completarPendiente(this)" 
-                             <?php if($row["completado"] == 1)echo "checked disabled"; ?> >
-                             <div class="texto
-                              <?php if($row["completado"] == 1)echo "deshabilitado"; ?>
-                              " ><?php echo $row['texto'];?></div>
-                        </form>
-                        <form method="POST" id="form_eliminar_<?php echo $row['id']?>" action="">
+                   <div class="pendiente">
+                        <form method="POST" class="form_actualizar" id="form<?php echo $row['id']?>" action="">
+                             <input name="completar" value="<?php echo $row['id']?>" id="<?php echo $row['id']?>" type="checkbox" onchange="completarPendiente(this)" <?php if($row["completado"] == 1)echo "checked disabled"; ?> ><div class="texto <?php if($row["completado"] == 1)echo "deshabilitado"; ?>" ><?php echo $row['texto'];?></div></form>
+                        <form  class="form_eliminar" method="POST" id="form_eliminar_<?php echo $row['id']?>" action="">
                         <input type="hidden" name="eliminar" value="<?php echo $row['id']?>"/>
                             <input type="submit" value="Borrar">
                         </form>
@@ -123,6 +113,7 @@
 
     ?>
 </div>
+    </div>
 
 <script>
 
