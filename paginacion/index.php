@@ -14,6 +14,11 @@
         $peliculas = new Peliculas(2);
 ?>
     <div id="container">
+
+    <?php
+            echo $peliculas->mostrarTotalResultados() . " resultados totales <br/>";
+        ?>
+
         <div id="paginas">
         <?php
             $peliculas->mostrarPaginas();

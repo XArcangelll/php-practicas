@@ -82,6 +82,10 @@ class Peliculas extends DB{
         echo "</ul>";
     }
 
+    function mostrarTotalResultados(){
+        return $this->nResultados;
+    }
+
 
 }
 
