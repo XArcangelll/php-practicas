@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Api</title>
+</head>
+<body>
+    
+</body>
+<main class="grid-fluid">
+</main>
+
+
+<script>
+       $main = document.querySelector("main");
+ async function cielos(){
+    let res = await fetch("http://localhost/curso/api/"),
+     json = await res.json();
+    let  $template = "";
+     for(let i = 0;i< json.items.length;i++){   
+        let res =  json.items[i].nombre;
+        console.log(json.items[i].nombre);
+        $template += `<p>${res}</p> `;
+     }
+
+     $main.innerHTML = $template;
+     
+     
+ }
+
+ 
+ document.addEventListener("DOMContentLoaded",e => cielos());
+ 
+ 
+
+</script>
+</html>
