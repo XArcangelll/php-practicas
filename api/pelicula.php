@@ -15,6 +15,12 @@ class Pelicula extends DB{
         return $query;
     }
 
+    function nuevaPelicula($pelicula){
+        $query = $this->connect()->prepare('INSERT INTO pelicula(nombre,imagen) VALUES (:nombre,:imagen) ');
+        $query->execute(['nombre' => $pelicula["nombre"], "imagen" => $pelicula["imagen"]]);
+        return $query;
+    }
+
 }
 
 ?>
