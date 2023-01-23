@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+
+<script>
+
+    const memo = ()=>{
+        const cache = {};
+        console.log(cache);
+
+        return (value) =>{
+            if(value in cache){
+                console.log(cache);
+                console.log("con cache")
+                return cache[value];
+
+            }else{
+
+                let result = value + 20;
+                cache[value] = result;
+                console.log(cache);
+                console.log("sin cache");
+                return result;
+            }
+        }
+    }
+
+    const returnedFn = memo();
+
+    returnedFn(100);
+    returnedFn(100);
+</script>
+
+</html>

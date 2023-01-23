@@ -7,6 +7,16 @@
     <title>Document</title>
 </head>
 <body>
-    <h1 style="color: red;"><?php echo $this->mensaje ?></h1>
+
+<?php
+        require  "views/header.php"; ?>
+
+        <div id="main">
+        <h1 class="error center"><?php echo $this->mensaje ?></h1>
+        </div>
+ 
+
+    <?php
+        require  "views/footer.php"; ?>
 </body>
 </html>

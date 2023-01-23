@@ -5,8 +5,13 @@
         function __construct()
         {
             parent::__construct();
-            $this->view->render("ayuda/index");
+       
         }
+
+        
+    function render(){
+        $this->view->render("ayuda/index");
+      }
     }
 
 
