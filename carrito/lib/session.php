@@ -5,6 +5,8 @@ class Session{
     private $session = NULL;
     
     public function __construct($session_name){
+        //para q las sesiones duren mas
+        session_set_cookie_params(60*60*24*14); //14 dias
         session_start();
 
         if(!isset($_SESSION[$session_name])){
