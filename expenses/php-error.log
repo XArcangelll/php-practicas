@@ -1,0 +1,369 @@
+[04-Feb-2023 20:47:49 America/Lima] Inicio de la Aplicación
+[04-Feb-2023 20:47:49 America/Lima] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\curso\expenses\libs\app.php on line 11
+[04-Feb-2023 20:47:49 America/Lima] PHP Stack trace:
+[04-Feb-2023 20:47:49 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[04-Feb-2023 20:47:49 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[04-Feb-2023 20:47:49 America/Lima] PHP   3. rtrim($string = NULL, $characters = '/') C:\xampp\htdocs\curso\expenses\libs\app.php:11
+[04-Feb-2023 20:47:49 America/Lima] App::construct-> No hay controlador especificado
+[04-Feb-2023 20:47:49 America/Lima] SESSIONCONTROLLER::validateSession
+[04-Feb-2023 20:47:49 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/, url =>
+[04-Feb-2023 20:47:49 America/Lima] sessionController::isPublic(): currentURL => 
+[04-Feb-2023 20:47:49 America/Lima] Login::construct -> Inicio de Login
+[04-Feb-2023 20:47:49 America/Lima] Login::render -> Carga el index del login
+[04-Feb-2023 20:47:54 America/Lima] Inicio de la Aplicación
+[04-Feb-2023 20:47:54 America/Lima] SESSIONCONTROLLER::validateSession
+[04-Feb-2023 20:47:54 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/login/authenticate, url =>login
+[04-Feb-2023 20:47:54 America/Lima] sessionController::isPublic(): currentURL => login
+[04-Feb-2023 20:47:54 America/Lima] Login::construct -> Inicio de Login
+[04-Feb-2023 20:47:54 America/Lima] Conexión a BD exitosa
+[04-Feb-2023 20:47:54 America/Lima] LoginModel::login->sucess
+[04-Feb-2023 20:47:54 America/Lima] sessionController::initialize(): user: marcos
+[04-Feb-2023 20:47:54 America/Lima] sessionController::authorizeAccess(): role: user
+[04-Feb-2023 20:47:55 America/Lima] Inicio de la Aplicación
+[04-Feb-2023 20:47:55 America/Lima] SESSIONCONTROLLER::validateSession
+[04-Feb-2023 20:47:55 America/Lima] Conexión a BD exitosa
+[04-Feb-2023 20:47:55 America/Lima] sessionController::getUserSessionData(): marcos
+[04-Feb-2023 20:47:55 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[04-Feb-2023 20:47:55 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[04-Feb-2023 20:47:55 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[04-Feb-2023 20:47:55 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[04-Feb-2023 20:47:55 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[04-Feb-2023 20:47:55 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[04-Feb-2023 20:52:25 America/Lima] Inicio de la Aplicación
+[04-Feb-2023 20:52:25 America/Lima] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\curso\expenses\libs\app.php on line 11
+[04-Feb-2023 20:52:25 America/Lima] PHP Stack trace:
+[04-Feb-2023 20:52:25 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[04-Feb-2023 20:52:25 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[04-Feb-2023 20:52:25 America/Lima] PHP   3. rtrim($string = NULL, $characters = '/') C:\xampp\htdocs\curso\expenses\libs\app.php:11
+[04-Feb-2023 20:52:25 America/Lima] App::construct-> No hay controlador especificado
+[04-Feb-2023 20:52:25 America/Lima] SESSIONCONTROLLER::validateSession
+[04-Feb-2023 20:52:25 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/, url =>
+[04-Feb-2023 20:52:25 America/Lima] sessionController::isPublic(): currentURL => 
+[04-Feb-2023 20:52:25 America/Lima] Login::construct -> Inicio de Login
+[04-Feb-2023 20:52:25 America/Lima] Login::render -> Carga el index del login
+[04-Feb-2023 20:52:27 America/Lima] Inicio de la Aplicación
+[04-Feb-2023 20:52:27 America/Lima] SESSIONCONTROLLER::validateSession
+[04-Feb-2023 20:52:27 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/login/authenticate, url =>login
+[04-Feb-2023 20:52:27 America/Lima] sessionController::isPublic(): currentURL => login
+[04-Feb-2023 20:52:27 America/Lima] Login::construct -> Inicio de Login
+[04-Feb-2023 20:52:27 America/Lima] Conexión a BD exitosa
+[04-Feb-2023 20:52:28 America/Lima] Inicio de la Aplicación
+[04-Feb-2023 20:52:28 America/Lima] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\curso\expenses\libs\app.php on line 11
+[04-Feb-2023 20:52:28 America/Lima] PHP Stack trace:
+[04-Feb-2023 20:52:28 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[04-Feb-2023 20:52:28 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[04-Feb-2023 20:52:28 America/Lima] PHP   3. rtrim($string = NULL, $characters = '/') C:\xampp\htdocs\curso\expenses\libs\app.php:11
+[04-Feb-2023 20:52:28 America/Lima] App::construct-> No hay controlador especificado
+[04-Feb-2023 20:52:28 America/Lima] SESSIONCONTROLLER::validateSession
+[04-Feb-2023 20:52:28 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/?error=79c870gs3sawxcya7yza614c2f97x222, url =>?error=79c870gs3sawxcya7yza614c2f97x222
+[04-Feb-2023 20:52:28 America/Lima] sessionController::isPublic(): currentURL => ?error=79c870gs3sawxcya7yza614c2f97x222
+[04-Feb-2023 20:52:28 America/Lima] Login::construct -> Inicio de Login
+[04-Feb-2023 20:52:28 America/Lima] Login::render -> Carga el index del login
+[04-Feb-2023 20:53:06 America/Lima] Inicio de la Aplicación
+[04-Feb-2023 20:53:06 America/Lima] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\curso\expenses\libs\app.php on line 11
+[04-Feb-2023 20:53:06 America/Lima] PHP Stack trace:
+[04-Feb-2023 20:53:06 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[04-Feb-2023 20:53:06 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[04-Feb-2023 20:53:06 America/Lima] PHP   3. rtrim($string = NULL, $characters = '/') C:\xampp\htdocs\curso\expenses\libs\app.php:11
+[04-Feb-2023 20:53:06 America/Lima] App::construct-> No hay controlador especificado
+[04-Feb-2023 20:53:06 America/Lima] SESSIONCONTROLLER::validateSession
+[04-Feb-2023 20:53:06 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/?error=79c870gs3sawxcya7yza614c2f97x222, url =>?error=79c870gs3sawxcya7yza614c2f97x222
+[04-Feb-2023 20:53:06 America/Lima] sessionController::isPublic(): currentURL => ?error=79c870gs3sawxcya7yza614c2f97x222
+[04-Feb-2023 20:53:06 America/Lima] Login::construct -> Inicio de Login
+[04-Feb-2023 20:53:06 America/Lima] Login::render -> Carga el index del login
+[04-Feb-2023 20:53:08 America/Lima] Inicio de la Aplicación
+[04-Feb-2023 20:53:09 America/Lima] SESSIONCONTROLLER::validateSession
+[04-Feb-2023 20:53:09 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/login/authenticate, url =>login
+[04-Feb-2023 20:53:09 America/Lima] sessionController::isPublic(): currentURL => login
+[04-Feb-2023 20:53:09 America/Lima] Login::construct -> Inicio de Login
+[04-Feb-2023 20:53:09 America/Lima] Conexión a BD exitosa
+[04-Feb-2023 20:53:09 America/Lima] Inicio de la Aplicación
+[04-Feb-2023 20:53:09 America/Lima] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\curso\expenses\libs\app.php on line 11
+[04-Feb-2023 20:53:09 America/Lima] PHP Stack trace:
+[04-Feb-2023 20:53:09 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[04-Feb-2023 20:53:09 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[04-Feb-2023 20:53:09 America/Lima] PHP   3. rtrim($string = NULL, $characters = '/') C:\xampp\htdocs\curso\expenses\libs\app.php:11
+[04-Feb-2023 20:53:09 America/Lima] App::construct-> No hay controlador especificado
+[04-Feb-2023 20:53:09 America/Lima] SESSIONCONTROLLER::validateSession
+[04-Feb-2023 20:53:09 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/?error=79c870gs3sawxcya7yza614c2f97x222, url =>?error=79c870gs3sawxcya7yza614c2f97x222
+[04-Feb-2023 20:53:09 America/Lima] sessionController::isPublic(): currentURL => ?error=79c870gs3sawxcya7yza614c2f97x222
+[04-Feb-2023 20:53:09 America/Lima] Login::construct -> Inicio de Login
+[04-Feb-2023 20:53:09 America/Lima] Login::render -> Carga el index del login
+[04-Feb-2023 20:53:10 America/Lima] Inicio de la Aplicación
+[04-Feb-2023 20:53:10 America/Lima] SESSIONCONTROLLER::validateSession
+[04-Feb-2023 20:53:10 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/login/authenticate, url =>login
+[04-Feb-2023 20:53:10 America/Lima] sessionController::isPublic(): currentURL => login
+[04-Feb-2023 20:53:10 America/Lima] Login::construct -> Inicio de Login
+[04-Feb-2023 20:53:10 America/Lima] Conexión a BD exitosa
+[04-Feb-2023 20:53:11 America/Lima] Inicio de la Aplicación
+[04-Feb-2023 20:53:11 America/Lima] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\curso\expenses\libs\app.php on line 11
+[04-Feb-2023 20:53:11 America/Lima] PHP Stack trace:
+[04-Feb-2023 20:53:11 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[04-Feb-2023 20:53:11 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[04-Feb-2023 20:53:11 America/Lima] PHP   3. rtrim($string = NULL, $characters = '/') C:\xampp\htdocs\curso\expenses\libs\app.php:11
+[04-Feb-2023 20:53:11 America/Lima] App::construct-> No hay controlador especificado
+[04-Feb-2023 20:53:11 America/Lima] SESSIONCONTROLLER::validateSession
+[04-Feb-2023 20:53:11 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/?error=79c870gs3sawxcya7yza614c2f97x222, url =>?error=79c870gs3sawxcya7yza614c2f97x222
+[04-Feb-2023 20:53:11 America/Lima] sessionController::isPublic(): currentURL => ?error=79c870gs3sawxcya7yza614c2f97x222
+[04-Feb-2023 20:53:11 America/Lima] Login::construct -> Inicio de Login
+[04-Feb-2023 20:53:11 America/Lima] Login::render -> Carga el index del login
+[04-Feb-2023 20:53:13 America/Lima] Inicio de la Aplicación
+[04-Feb-2023 20:53:13 America/Lima] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\curso\expenses\libs\app.php on line 11
+[04-Feb-2023 20:53:13 America/Lima] PHP Stack trace:
+[04-Feb-2023 20:53:13 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[04-Feb-2023 20:53:13 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[04-Feb-2023 20:53:13 America/Lima] PHP   3. rtrim($string = NULL, $characters = '/') C:\xampp\htdocs\curso\expenses\libs\app.php:11
+[04-Feb-2023 20:53:13 America/Lima] App::construct-> No hay controlador especificado
+[04-Feb-2023 20:53:13 America/Lima] SESSIONCONTROLLER::validateSession
+[04-Feb-2023 20:53:13 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/?error=79c870gs3sawxcya7yza614c2f97x222, url =>?error=79c870gs3sawxcya7yza614c2f97x222
+[04-Feb-2023 20:53:13 America/Lima] sessionController::isPublic(): currentURL => ?error=79c870gs3sawxcya7yza614c2f97x222
+[04-Feb-2023 20:53:13 America/Lima] Login::construct -> Inicio de Login
+[04-Feb-2023 20:53:13 America/Lima] Login::render -> Carga el index del login
+[04-Feb-2023 20:53:16 America/Lima] Inicio de la Aplicación
+[04-Feb-2023 20:53:16 America/Lima] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\curso\expenses\libs\app.php on line 11
+[04-Feb-2023 20:53:16 America/Lima] PHP Stack trace:
+[04-Feb-2023 20:53:16 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[04-Feb-2023 20:53:16 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[04-Feb-2023 20:53:16 America/Lima] PHP   3. rtrim($string = NULL, $characters = '/') C:\xampp\htdocs\curso\expenses\libs\app.php:11
+[04-Feb-2023 20:53:16 America/Lima] App::construct-> No hay controlador especificado
+[04-Feb-2023 20:53:16 America/Lima] SESSIONCONTROLLER::validateSession
+[04-Feb-2023 20:53:16 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/, url =>
+[04-Feb-2023 20:53:16 America/Lima] sessionController::isPublic(): currentURL => 
+[04-Feb-2023 20:53:16 America/Lima] Login::construct -> Inicio de Login
+[04-Feb-2023 20:53:16 America/Lima] Login::render -> Carga el index del login
+[04-Feb-2023 20:53:17 America/Lima] Inicio de la Aplicación
+[04-Feb-2023 20:53:17 America/Lima] SESSIONCONTROLLER::validateSession
+[04-Feb-2023 20:53:17 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/login/authenticate, url =>login
+[04-Feb-2023 20:53:17 America/Lima] sessionController::isPublic(): currentURL => login
+[04-Feb-2023 20:53:17 America/Lima] Login::construct -> Inicio de Login
+[04-Feb-2023 20:53:17 America/Lima] Conexión a BD exitosa
+[04-Feb-2023 20:53:18 America/Lima] Inicio de la Aplicación
+[04-Feb-2023 20:53:18 America/Lima] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\curso\expenses\libs\app.php on line 11
+[04-Feb-2023 20:53:18 America/Lima] PHP Stack trace:
+[04-Feb-2023 20:53:18 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[04-Feb-2023 20:53:18 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[04-Feb-2023 20:53:18 America/Lima] PHP   3. rtrim($string = NULL, $characters = '/') C:\xampp\htdocs\curso\expenses\libs\app.php:11
+[04-Feb-2023 20:53:18 America/Lima] App::construct-> No hay controlador especificado
+[04-Feb-2023 20:53:18 America/Lima] SESSIONCONTROLLER::validateSession
+[04-Feb-2023 20:53:18 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/?error=79c870gs3sawxcya7yza614c2f97x222, url =>?error=79c870gs3sawxcya7yza614c2f97x222
+[04-Feb-2023 20:53:18 America/Lima] sessionController::isPublic(): currentURL => ?error=79c870gs3sawxcya7yza614c2f97x222
+[04-Feb-2023 20:53:18 America/Lima] Login::construct -> Inicio de Login
+[04-Feb-2023 20:53:18 America/Lima] Login::render -> Carga el index del login
+[04-Feb-2023 20:53:58 America/Lima] Inicio de la Aplicación
+[04-Feb-2023 20:53:58 America/Lima] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\curso\expenses\libs\app.php on line 11
+[04-Feb-2023 20:53:58 America/Lima] PHP Stack trace:
+[04-Feb-2023 20:53:58 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[04-Feb-2023 20:53:58 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[04-Feb-2023 20:53:58 America/Lima] PHP   3. rtrim($string = NULL, $characters = '/') C:\xampp\htdocs\curso\expenses\libs\app.php:11
+[04-Feb-2023 20:53:58 America/Lima] App::construct-> No hay controlador especificado
+[04-Feb-2023 20:53:58 America/Lima] SESSIONCONTROLLER::validateSession
+[04-Feb-2023 20:53:58 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/?error=79c870gs3sawxcya7yza614c2f97x222, url =>?error=79c870gs3sawxcya7yza614c2f97x222
+[04-Feb-2023 20:53:58 America/Lima] sessionController::isPublic(): currentURL => ?error=79c870gs3sawxcya7yza614c2f97x222
+[04-Feb-2023 20:53:58 America/Lima] Login::construct -> Inicio de Login
+[04-Feb-2023 20:53:58 America/Lima] Login::render -> Carga el index del login
+[04-Feb-2023 20:54:00 America/Lima] Inicio de la Aplicación
+[04-Feb-2023 20:54:00 America/Lima] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\curso\expenses\libs\app.php on line 11
+[04-Feb-2023 20:54:00 America/Lima] PHP Stack trace:
+[04-Feb-2023 20:54:00 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[04-Feb-2023 20:54:00 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[04-Feb-2023 20:54:00 America/Lima] PHP   3. rtrim($string = NULL, $characters = '/') C:\xampp\htdocs\curso\expenses\libs\app.php:11
+[04-Feb-2023 20:54:00 America/Lima] App::construct-> No hay controlador especificado
+[04-Feb-2023 20:54:00 America/Lima] SESSIONCONTROLLER::validateSession
+[04-Feb-2023 20:54:00 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/?error=79c870gs3sawxcya7yza614c2f97x222, url =>?error=79c870gs3sawxcya7yza614c2f97x222
+[04-Feb-2023 20:54:00 America/Lima] sessionController::isPublic(): currentURL => ?error=79c870gs3sawxcya7yza614c2f97x222
+[04-Feb-2023 20:54:00 America/Lima] Login::construct -> Inicio de Login
+[04-Feb-2023 20:54:00 America/Lima] Login::render -> Carga el index del login
+[04-Feb-2023 20:54:03 America/Lima] Inicio de la Aplicación
+[04-Feb-2023 20:54:03 America/Lima] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\curso\expenses\libs\app.php on line 11
+[04-Feb-2023 20:54:03 America/Lima] PHP Stack trace:
+[04-Feb-2023 20:54:03 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[04-Feb-2023 20:54:03 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[04-Feb-2023 20:54:03 America/Lima] PHP   3. rtrim($string = NULL, $characters = '/') C:\xampp\htdocs\curso\expenses\libs\app.php:11
+[04-Feb-2023 20:54:03 America/Lima] App::construct-> No hay controlador especificado
+[04-Feb-2023 20:54:03 America/Lima] SESSIONCONTROLLER::validateSession
+[04-Feb-2023 20:54:03 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/, url =>
+[04-Feb-2023 20:54:03 America/Lima] sessionController::isPublic(): currentURL => 
+[04-Feb-2023 20:54:03 America/Lima] Login::construct -> Inicio de Login
+[04-Feb-2023 20:54:03 America/Lima] Login::render -> Carga el index del login
+[04-Feb-2023 20:54:04 America/Lima] Inicio de la Aplicación
+[04-Feb-2023 20:54:04 America/Lima] SESSIONCONTROLLER::validateSession
+[04-Feb-2023 20:54:04 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/login/authenticate, url =>login
+[04-Feb-2023 20:54:04 America/Lima] sessionController::isPublic(): currentURL => login
+[04-Feb-2023 20:54:04 America/Lima] Login::construct -> Inicio de Login
+[04-Feb-2023 20:54:04 America/Lima] Conexión a BD exitosa
+[04-Feb-2023 20:54:05 America/Lima] Inicio de la Aplicación
+[04-Feb-2023 20:54:05 America/Lima] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\curso\expenses\libs\app.php on line 11
+[04-Feb-2023 20:54:05 America/Lima] PHP Stack trace:
+[04-Feb-2023 20:54:05 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[04-Feb-2023 20:54:05 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[04-Feb-2023 20:54:05 America/Lima] PHP   3. rtrim($string = NULL, $characters = '/') C:\xampp\htdocs\curso\expenses\libs\app.php:11
+[04-Feb-2023 20:54:05 America/Lima] App::construct-> No hay controlador especificado
+[04-Feb-2023 20:54:05 America/Lima] SESSIONCONTROLLER::validateSession
+[04-Feb-2023 20:54:05 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/?error=79c870gs3sawxcya7yza614c2f97x222, url =>?error=79c870gs3sawxcya7yza614c2f97x222
+[04-Feb-2023 20:54:05 America/Lima] sessionController::isPublic(): currentURL => ?error=79c870gs3sawxcya7yza614c2f97x222
+[04-Feb-2023 20:54:05 America/Lima] Login::construct -> Inicio de Login
+[04-Feb-2023 20:54:05 America/Lima] Login::render -> Carga el index del login
+[04-Feb-2023 20:55:12 America/Lima] Inicio de la Aplicación
+[04-Feb-2023 20:55:12 America/Lima] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\curso\expenses\libs\app.php on line 11
+[04-Feb-2023 20:55:12 America/Lima] PHP Stack trace:
+[04-Feb-2023 20:55:12 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[04-Feb-2023 20:55:12 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[04-Feb-2023 20:55:12 America/Lima] PHP   3. rtrim($string = NULL, $characters = '/') C:\xampp\htdocs\curso\expenses\libs\app.php:11
+[04-Feb-2023 20:55:12 America/Lima] App::construct-> No hay controlador especificado
+[04-Feb-2023 20:55:12 America/Lima] SESSIONCONTROLLER::validateSession
+[04-Feb-2023 20:55:12 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/?error=79c870gs3sawxcya7yza614c2f97x222, url =>?error=79c870gs3sawxcya7yza614c2f97x222
+[04-Feb-2023 20:55:12 America/Lima] sessionController::isPublic(): currentURL => ?error=79c870gs3sawxcya7yza614c2f97x222
+[04-Feb-2023 20:55:12 America/Lima] Login::construct -> Inicio de Login
+[04-Feb-2023 20:55:12 America/Lima] Login::render -> Carga el index del login
+[04-Feb-2023 20:55:15 America/Lima] Inicio de la Aplicación
+[04-Feb-2023 20:55:15 America/Lima] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\curso\expenses\libs\app.php on line 11
+[04-Feb-2023 20:55:15 America/Lima] PHP Stack trace:
+[04-Feb-2023 20:55:15 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[04-Feb-2023 20:55:15 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[04-Feb-2023 20:55:15 America/Lima] PHP   3. rtrim($string = NULL, $characters = '/') C:\xampp\htdocs\curso\expenses\libs\app.php:11
+[04-Feb-2023 20:55:15 America/Lima] App::construct-> No hay controlador especificado
+[04-Feb-2023 20:55:15 America/Lima] SESSIONCONTROLLER::validateSession
+[04-Feb-2023 20:55:15 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/, url =>
+[04-Feb-2023 20:55:15 America/Lima] sessionController::isPublic(): currentURL => 
+[04-Feb-2023 20:55:15 America/Lima] Login::construct -> Inicio de Login
+[04-Feb-2023 20:55:15 America/Lima] Login::render -> Carga el index del login
+[04-Feb-2023 20:55:16 America/Lima] Inicio de la Aplicación
+[04-Feb-2023 20:55:16 America/Lima] SESSIONCONTROLLER::validateSession
+[04-Feb-2023 20:55:16 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/login/authenticate, url =>login
+[04-Feb-2023 20:55:16 America/Lima] sessionController::isPublic(): currentURL => login
+[04-Feb-2023 20:55:16 America/Lima] Login::construct -> Inicio de Login
+[04-Feb-2023 20:55:16 America/Lima] Inicio de la Aplicación
+[04-Feb-2023 20:55:16 America/Lima] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\curso\expenses\libs\app.php on line 11
+[04-Feb-2023 20:55:16 America/Lima] PHP Stack trace:
+[04-Feb-2023 20:55:16 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[04-Feb-2023 20:55:16 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[04-Feb-2023 20:55:16 America/Lima] PHP   3. rtrim($string = NULL, $characters = '/') C:\xampp\htdocs\curso\expenses\libs\app.php:11
+[04-Feb-2023 20:55:16 America/Lima] App::construct-> No hay controlador especificado
+[04-Feb-2023 20:55:16 America/Lima] SESSIONCONTROLLER::validateSession
+[04-Feb-2023 20:55:16 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/?error=79c870gs3sawcuya8yza614c2f97x222, url =>?error=79c870gs3sawcuya8yza614c2f97x222
+[04-Feb-2023 20:55:16 America/Lima] sessionController::isPublic(): currentURL => ?error=79c870gs3sawcuya8yza614c2f97x222
+[04-Feb-2023 20:55:16 America/Lima] Login::construct -> Inicio de Login
+[04-Feb-2023 20:55:16 America/Lima] Login::render -> Carga el index del login
+[04-Feb-2023 20:55:26 America/Lima] Inicio de la Aplicación
+[04-Feb-2023 20:55:26 America/Lima] SESSIONCONTROLLER::validateSession
+[04-Feb-2023 20:55:26 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/login/authenticate, url =>login
+[04-Feb-2023 20:55:26 America/Lima] sessionController::isPublic(): currentURL => login
+[04-Feb-2023 20:55:26 America/Lima] Login::construct -> Inicio de Login
+[04-Feb-2023 20:55:26 America/Lima] Conexión a BD exitosa
+[04-Feb-2023 20:55:26 America/Lima] Inicio de la Aplicación
+[04-Feb-2023 20:55:26 America/Lima] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\curso\expenses\libs\app.php on line 11
+[04-Feb-2023 20:55:26 America/Lima] PHP Stack trace:
+[04-Feb-2023 20:55:26 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[04-Feb-2023 20:55:26 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[04-Feb-2023 20:55:26 America/Lima] PHP   3. rtrim($string = NULL, $characters = '/') C:\xampp\htdocs\curso\expenses\libs\app.php:11
+[04-Feb-2023 20:55:26 America/Lima] App::construct-> No hay controlador especificado
+[04-Feb-2023 20:55:26 America/Lima] SESSIONCONTROLLER::validateSession
+[04-Feb-2023 20:55:26 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/?error=79c870gs3sawxcya7yza614c2f97x222, url =>?error=79c870gs3sawxcya7yza614c2f97x222
+[04-Feb-2023 20:55:26 America/Lima] sessionController::isPublic(): currentURL => ?error=79c870gs3sawxcya7yza614c2f97x222
+[04-Feb-2023 20:55:26 America/Lima] Login::construct -> Inicio de Login
+[04-Feb-2023 20:55:26 America/Lima] Login::render -> Carga el index del login
+[04-Feb-2023 20:55:50 America/Lima] Inicio de la Aplicación
+[04-Feb-2023 20:55:50 America/Lima] SESSIONCONTROLLER::validateSession
+[04-Feb-2023 20:55:50 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/login/authenticate, url =>login
+[04-Feb-2023 20:55:50 America/Lima] sessionController::isPublic(): currentURL => login
+[04-Feb-2023 20:55:50 America/Lima] Login::construct -> Inicio de Login
+[04-Feb-2023 20:55:50 America/Lima] Conexión a BD exitosa
+[04-Feb-2023 20:55:50 America/Lima] LoginModel::login->sucess
+[04-Feb-2023 20:55:50 America/Lima] sessionController::initialize(): user: dieguito
+[04-Feb-2023 20:55:50 America/Lima] sessionController::authorizeAccess(): role: user
+[04-Feb-2023 20:55:50 America/Lima] Inicio de la Aplicación
+[04-Feb-2023 20:55:50 America/Lima] SESSIONCONTROLLER::validateSession
+[04-Feb-2023 20:55:50 America/Lima] Conexión a BD exitosa
+[04-Feb-2023 20:55:50 America/Lima] sessionController::getUserSessionData(): dieguito
+[04-Feb-2023 20:55:50 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[04-Feb-2023 20:55:50 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[04-Feb-2023 20:55:50 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[04-Feb-2023 20:55:50 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[04-Feb-2023 20:55:50 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[04-Feb-2023 20:55:50 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[04-Feb-2023 20:56:15 America/Lima] Inicio de la Aplicación
+[04-Feb-2023 20:56:15 America/Lima] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\curso\expenses\libs\app.php on line 11
+[04-Feb-2023 20:56:15 America/Lima] PHP Stack trace:
+[04-Feb-2023 20:56:15 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[04-Feb-2023 20:56:15 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[04-Feb-2023 20:56:15 America/Lima] PHP   3. rtrim($string = NULL, $characters = '/') C:\xampp\htdocs\curso\expenses\libs\app.php:11
+[04-Feb-2023 20:56:15 America/Lima] App::construct-> No hay controlador especificado
+[04-Feb-2023 20:56:15 America/Lima] SESSIONCONTROLLER::validateSession
+[04-Feb-2023 20:56:15 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/, url =>
+[04-Feb-2023 20:56:15 America/Lima] sessionController::isPublic(): currentURL => 
+[04-Feb-2023 20:56:15 America/Lima] Login::construct -> Inicio de Login
+[04-Feb-2023 20:56:15 America/Lima] Login::render -> Carga el index del login
+[04-Feb-2023 20:56:18 America/Lima] Inicio de la Aplicación
+[04-Feb-2023 20:56:18 America/Lima] SESSIONCONTROLLER::validateSession
+[04-Feb-2023 20:56:18 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[04-Feb-2023 20:56:18 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[04-Feb-2023 20:56:18 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[04-Feb-2023 20:56:18 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[04-Feb-2023 20:56:18 America/Lima] Inicio de la Aplicación
+[04-Feb-2023 20:56:18 America/Lima] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\curso\expenses\libs\app.php on line 11
+[04-Feb-2023 20:56:18 America/Lima] PHP Stack trace:
+[04-Feb-2023 20:56:18 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[04-Feb-2023 20:56:18 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[04-Feb-2023 20:56:18 America/Lima] PHP   3. rtrim($string = NULL, $characters = '/') C:\xampp\htdocs\curso\expenses\libs\app.php:11
+[04-Feb-2023 20:56:18 America/Lima] App::construct-> No hay controlador especificado
+[04-Feb-2023 20:56:18 America/Lima] SESSIONCONTROLLER::validateSession
+[04-Feb-2023 20:56:18 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/, url =>
+[04-Feb-2023 20:56:18 America/Lima] sessionController::isPublic(): currentURL => 
+[04-Feb-2023 20:56:18 America/Lima] Login::construct -> Inicio de Login
+[04-Feb-2023 20:56:18 America/Lima] Login::render -> Carga el index del login
+[04-Feb-2023 20:56:21 America/Lima] Inicio de la Aplicación
+[04-Feb-2023 20:56:21 America/Lima] Errores::construct -> Inicio de Errores
+[04-Feb-2023 20:56:25 America/Lima] Inicio de la Aplicación
+[04-Feb-2023 20:56:25 America/Lima] SESSIONCONTROLLER::validateSession
+[04-Feb-2023 20:56:25 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[04-Feb-2023 20:56:25 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[04-Feb-2023 20:56:25 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[04-Feb-2023 20:56:25 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[04-Feb-2023 20:56:25 America/Lima] Inicio de la Aplicación
+[04-Feb-2023 20:56:25 America/Lima] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\curso\expenses\libs\app.php on line 11
+[04-Feb-2023 20:56:25 America/Lima] PHP Stack trace:
+[04-Feb-2023 20:56:25 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[04-Feb-2023 20:56:25 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[04-Feb-2023 20:56:25 America/Lima] PHP   3. rtrim($string = NULL, $characters = '/') C:\xampp\htdocs\curso\expenses\libs\app.php:11
+[04-Feb-2023 20:56:25 America/Lima] App::construct-> No hay controlador especificado
+[04-Feb-2023 20:56:25 America/Lima] SESSIONCONTROLLER::validateSession
+[04-Feb-2023 20:56:25 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/, url =>
+[04-Feb-2023 20:56:25 America/Lima] sessionController::isPublic(): currentURL => 
+[04-Feb-2023 20:56:25 America/Lima] Login::construct -> Inicio de Login
+[04-Feb-2023 20:56:25 America/Lima] Login::render -> Carga el index del login
+[04-Feb-2023 20:56:28 America/Lima] Inicio de la Aplicación
+[04-Feb-2023 20:56:28 America/Lima] SESSIONCONTROLLER::validateSession
+[04-Feb-2023 20:56:28 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[04-Feb-2023 20:56:28 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[04-Feb-2023 20:56:28 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[04-Feb-2023 20:56:28 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[04-Feb-2023 20:56:28 America/Lima] Inicio de la Aplicación
+[04-Feb-2023 20:56:28 America/Lima] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\curso\expenses\libs\app.php on line 11
+[04-Feb-2023 20:56:28 America/Lima] PHP Stack trace:
+[04-Feb-2023 20:56:28 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[04-Feb-2023 20:56:28 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[04-Feb-2023 20:56:28 America/Lima] PHP   3. rtrim($string = NULL, $characters = '/') C:\xampp\htdocs\curso\expenses\libs\app.php:11
+[04-Feb-2023 20:56:28 America/Lima] App::construct-> No hay controlador especificado
+[04-Feb-2023 20:56:28 America/Lima] SESSIONCONTROLLER::validateSession
+[04-Feb-2023 20:56:28 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/, url =>
+[04-Feb-2023 20:56:28 America/Lima] sessionController::isPublic(): currentURL => 
+[04-Feb-2023 20:56:28 America/Lima] Login::construct -> Inicio de Login
+[04-Feb-2023 20:56:28 America/Lima] Login::render -> Carga el index del login
+[04-Feb-2023 20:58:32 America/Lima] Inicio de la Aplicación
+[04-Feb-2023 20:58:32 America/Lima] SESSIONCONTROLLER::validateSession
+[04-Feb-2023 20:58:32 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[04-Feb-2023 20:58:32 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[04-Feb-2023 20:58:32 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[04-Feb-2023 20:58:32 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[04-Feb-2023 20:58:33 America/Lima] Inicio de la Aplicación
+[04-Feb-2023 20:58:33 America/Lima] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\curso\expenses\libs\app.php on line 11
+[04-Feb-2023 20:58:33 America/Lima] PHP Stack trace:
+[04-Feb-2023 20:58:33 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[04-Feb-2023 20:58:33 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[04-Feb-2023 20:58:33 America/Lima] PHP   3. rtrim($string = NULL, $characters = '/') C:\xampp\htdocs\curso\expenses\libs\app.php:11
+[04-Feb-2023 20:58:33 America/Lima] App::construct-> No hay controlador especificado
+[04-Feb-2023 20:58:33 America/Lima] SESSIONCONTROLLER::validateSession
+[04-Feb-2023 20:58:33 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/, url =>
+[04-Feb-2023 20:58:33 America/Lima] sessionController::isPublic(): currentURL => 
+[04-Feb-2023 20:58:33 America/Lima] Login::construct -> Inicio de Login
+[04-Feb-2023 20:58:33 America/Lima] Login::render -> Carga el index del login

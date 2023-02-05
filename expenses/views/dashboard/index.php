@@ -4,11 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Dashboard</title>
 </head>
 <body>
-        <h1>Esta es la vista del login</h1>
-
-        <p><?php $this->showMessages() ?></p>
+    <h1>Esta es la vista del dashboard</h1>
+<p><?php $this->showMessages() ?></p>
 </body>
 </html>

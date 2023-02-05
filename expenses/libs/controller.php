@@ -44,7 +44,7 @@ class Controller{
     }
 
     function getPost($name){
-        return $_GET[$name];
+        return $_POST[$name];
     }
 
     function redirect($route,$mensajes){

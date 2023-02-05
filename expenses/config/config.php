@@ -1,6 +1,6 @@
 <?php
 
-define('URL', 'http://localhost/curso/proyecto');
+define('URL', 'http://localhost/curso/expenses/');
 
 define('HOST', 'localhost');
 define('DB', 'expense-app');

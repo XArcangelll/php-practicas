@@ -3,6 +3,7 @@
 class SuccessMessages{
 
     const SUCCESS_ADMIN_NEWCATEGORY_EXISTS = "79cd10ec211ccbea8fda665c2f53f382";
+    const SUCCESS_SIGNUP_NEWUSER = "79cd10ec211ufbea8fda745c2f53f382";
 
     private $successList = [];
 
@@ -10,7 +11,8 @@ class SuccessMessages{
      public function __construct()
     {
         $this->successList = [
-            SuccessMessages::SUCCESS_ADMIN_NEWCATEGORY_EXISTS => "El nombre de la categoría registrada"
+            SuccessMessages::SUCCESS_ADMIN_NEWCATEGORY_EXISTS => "El nombre de la categoría registrada",
+            SuccessMessages::SUCCESS_SIGNUP_NEWUSER => "Nuevo usuario registrado correctamente"
         ];
     }
 

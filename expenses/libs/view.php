@@ -3,6 +3,7 @@
 class View{
 
     public $d;
+    public $errorMessage;
 
     function __construct()
     {
@@ -26,19 +27,21 @@ class View{
         }
     }
 
-    private function handleError(){
-        $hash = $_GET["error"];
-        $error = new ErrorMessages();
-        if($error->existKey($hash)){
-            $this->d["error"] = $error->get($hash);
-        }
-    }
+
 
     private function handleSuccess(){
         $hash = $_GET["success"];
         $success = new SuccessMessages();
         if($success->existKey($hash)){
             $this->d["success"] = $success->get($hash);
+        }
+    }
+
+    private function handleError(){
+        $hash = $_GET["error"];
+        $error = new ErrorMessages();
+        if($error->existKey($hash)){
+            $this->d["error"] = $error->get($hash);
         }
     }
 
