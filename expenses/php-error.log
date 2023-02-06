@@ -367,3 +367,1586 @@
 [04-Feb-2023 20:58:33 America/Lima] sessionController::isPublic(): currentURL => 
 [04-Feb-2023 20:58:33 America/Lima] Login::construct -> Inicio de Login
 [04-Feb-2023 20:58:33 America/Lima] Login::render -> Carga el index del login
+[04-Feb-2023 22:24:04 America/Lima] Inicio de la Aplicación
+[04-Feb-2023 22:24:04 America/Lima] SESSIONCONTROLLER::validateSession
+[04-Feb-2023 22:24:04 America/Lima] Conexión a BD exitosa
+[04-Feb-2023 22:24:04 America/Lima] sessionController::getUserSessionData(): marcos
+[04-Feb-2023 22:24:04 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[04-Feb-2023 22:24:04 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[04-Feb-2023 22:24:04 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[04-Feb-2023 22:24:04 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[04-Feb-2023 22:24:04 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[04-Feb-2023 22:24:04 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[04-Feb-2023 23:37:07 America/Lima] Inicio de la Aplicación
+[04-Feb-2023 23:37:07 America/Lima] SESSIONCONTROLLER::validateSession
+[04-Feb-2023 23:37:07 America/Lima] Conexión a BD exitosa
+[04-Feb-2023 23:37:07 America/Lima] sessionController::getUserSessionData(): marcos
+[04-Feb-2023 23:37:07 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[04-Feb-2023 23:37:07 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[04-Feb-2023 23:37:07 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[04-Feb-2023 23:37:07 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[04-Feb-2023 23:37:07 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[04-Feb-2023 23:37:07 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[05-Feb-2023 00:03:11 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 00:03:11 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 00:03:11 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 00:03:11 America/Lima] sessionController::getUserSessionData(): marcos
+[05-Feb-2023 00:03:11 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 00:03:11 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[05-Feb-2023 00:03:11 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 00:03:11 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[05-Feb-2023 00:03:11 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[05-Feb-2023 00:03:11 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[05-Feb-2023 12:59:56 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 12:59:56 America/Lima] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\curso\expenses\libs\app.php on line 11
+[05-Feb-2023 12:59:56 America/Lima] PHP Stack trace:
+[05-Feb-2023 12:59:56 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[05-Feb-2023 12:59:56 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[05-Feb-2023 12:59:56 America/Lima] PHP   3. rtrim($string = NULL, $characters = '/') C:\xampp\htdocs\curso\expenses\libs\app.php:11
+[05-Feb-2023 12:59:56 America/Lima] App::construct-> No hay controlador especificado
+[05-Feb-2023 12:59:56 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 12:59:56 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 12:59:56 America/Lima] sessionController::getUserSessionData(): marcos
+[05-Feb-2023 12:59:56 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/, url =>
+[05-Feb-2023 12:59:56 America/Lima] sessionController::isPublic(): currentURL => 
+[05-Feb-2023 12:59:56 America/Lima] SessionController::validateSession() => sitio público, redirige al main de cada rol
+[05-Feb-2023 12:59:56 America/Lima] Login::construct -> Inicio de Login
+[05-Feb-2023 12:59:56 America/Lima] Login::render -> Carga el index del login
+[05-Feb-2023 12:59:56 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 12:59:56 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 12:59:56 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 12:59:56 America/Lima] sessionController::getUserSessionData(): marcos
+[05-Feb-2023 12:59:56 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 12:59:56 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[05-Feb-2023 12:59:56 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 12:59:56 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[05-Feb-2023 12:59:56 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[05-Feb-2023 12:59:56 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[05-Feb-2023 13:00:09 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 13:00:09 America/Lima] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\curso\expenses\libs\app.php on line 11
+[05-Feb-2023 13:00:09 America/Lima] PHP Stack trace:
+[05-Feb-2023 13:00:09 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[05-Feb-2023 13:00:09 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[05-Feb-2023 13:00:09 America/Lima] PHP   3. rtrim($string = NULL, $characters = '/') C:\xampp\htdocs\curso\expenses\libs\app.php:11
+[05-Feb-2023 13:00:09 America/Lima] App::construct-> No hay controlador especificado
+[05-Feb-2023 13:00:09 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 13:00:09 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/, url =>
+[05-Feb-2023 13:00:09 America/Lima] sessionController::isPublic(): currentURL => 
+[05-Feb-2023 13:00:09 America/Lima] Login::construct -> Inicio de Login
+[05-Feb-2023 13:00:09 America/Lima] Login::render -> Carga el index del login
+[05-Feb-2023 13:00:11 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 13:00:11 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 13:00:11 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/login/authenticate, url =>login
+[05-Feb-2023 13:00:11 America/Lima] sessionController::isPublic(): currentURL => login
+[05-Feb-2023 13:00:11 America/Lima] Login::construct -> Inicio de Login
+[05-Feb-2023 13:00:11 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 13:00:11 America/Lima] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\curso\expenses\libs\app.php on line 11
+[05-Feb-2023 13:00:11 America/Lima] PHP Stack trace:
+[05-Feb-2023 13:00:11 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[05-Feb-2023 13:00:11 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[05-Feb-2023 13:00:11 America/Lima] PHP   3. rtrim($string = NULL, $characters = '/') C:\xampp\htdocs\curso\expenses\libs\app.php:11
+[05-Feb-2023 13:00:11 America/Lima] App::construct-> No hay controlador especificado
+[05-Feb-2023 13:00:11 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 13:00:11 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/?error=79c870gs3sawcuya8yza614c2f97x222, url =>?error=79c870gs3sawcuya8yza614c2f97x222
+[05-Feb-2023 13:00:11 America/Lima] sessionController::isPublic(): currentURL => ?error=79c870gs3sawcuya8yza614c2f97x222
+[05-Feb-2023 13:00:11 America/Lima] Login::construct -> Inicio de Login
+[05-Feb-2023 13:00:11 America/Lima] Login::render -> Carga el index del login
+[05-Feb-2023 13:28:13 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 13:28:13 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 13:28:13 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 13:28:13 America/Lima] sessionController::getUserSessionData(): marcos
+[05-Feb-2023 13:28:13 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 13:28:13 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[05-Feb-2023 13:28:13 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 13:28:13 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[05-Feb-2023 13:28:13 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[05-Feb-2023 13:28:13 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[05-Feb-2023 13:34:03 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 13:34:03 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 13:34:03 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 13:34:03 America/Lima] sessionController::getUserSessionData(): marcos
+[05-Feb-2023 13:34:03 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 13:34:03 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[05-Feb-2023 13:34:03 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 13:34:03 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[05-Feb-2023 13:34:03 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[05-Feb-2023 13:34:03 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[05-Feb-2023 13:34:23 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 13:34:23 America/Lima] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\curso\expenses\libs\app.php on line 11
+[05-Feb-2023 13:34:23 America/Lima] PHP Stack trace:
+[05-Feb-2023 13:34:23 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[05-Feb-2023 13:34:23 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[05-Feb-2023 13:34:23 America/Lima] PHP   3. rtrim($string = NULL, $characters = '/') C:\xampp\htdocs\curso\expenses\libs\app.php:11
+[05-Feb-2023 13:34:23 America/Lima] App::construct-> No hay controlador especificado
+[05-Feb-2023 13:34:23 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 13:34:23 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/, url =>
+[05-Feb-2023 13:34:23 America/Lima] sessionController::isPublic(): currentURL => 
+[05-Feb-2023 13:34:23 America/Lima] Login::construct -> Inicio de Login
+[05-Feb-2023 13:34:23 America/Lima] Login::render -> Carga el index del login
+[05-Feb-2023 13:34:31 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 13:34:31 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 13:34:31 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/login/authenticate, url =>login
+[05-Feb-2023 13:34:31 America/Lima] sessionController::isPublic(): currentURL => login
+[05-Feb-2023 13:34:31 America/Lima] Login::construct -> Inicio de Login
+[05-Feb-2023 13:34:31 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 13:34:31 America/Lima] LoginModel::login->sucess
+[05-Feb-2023 13:34:31 America/Lima] sessionController::initialize(): user: dieguito
+[05-Feb-2023 13:34:31 America/Lima] sessionController::authorizeAccess(): role: user
+[05-Feb-2023 13:34:31 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 13:34:31 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 13:34:31 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 13:34:31 America/Lima] sessionController::getUserSessionData(): dieguito
+[05-Feb-2023 13:34:31 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 13:34:31 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[05-Feb-2023 13:34:31 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 13:34:31 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[05-Feb-2023 13:34:31 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[05-Feb-2023 13:34:31 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[05-Feb-2023 13:35:19 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 13:35:19 America/Lima] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\curso\expenses\libs\app.php on line 11
+[05-Feb-2023 13:35:19 America/Lima] PHP Stack trace:
+[05-Feb-2023 13:35:19 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[05-Feb-2023 13:35:19 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[05-Feb-2023 13:35:19 America/Lima] PHP   3. rtrim($string = NULL, $characters = '/') C:\xampp\htdocs\curso\expenses\libs\app.php:11
+[05-Feb-2023 13:35:19 America/Lima] App::construct-> No hay controlador especificado
+[05-Feb-2023 13:35:19 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 13:35:19 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/, url =>
+[05-Feb-2023 13:35:19 America/Lima] sessionController::isPublic(): currentURL => 
+[05-Feb-2023 13:35:19 America/Lima] Login::construct -> Inicio de Login
+[05-Feb-2023 13:35:19 America/Lima] Login::render -> Carga el index del login
+[05-Feb-2023 13:35:19 America/Lima] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\curso\expenses\views\login\index.php on line 12
+[05-Feb-2023 13:35:19 America/Lima] PHP Stack trace:
+[05-Feb-2023 13:35:19 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[05-Feb-2023 13:35:19 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[05-Feb-2023 13:35:19 America/Lima] PHP   3. Login->render() C:\xampp\htdocs\curso\expenses\libs\app.php:20
+[05-Feb-2023 13:35:19 America/Lima] PHP   4. View->render($nombre = 'login/index', $data = *uninitialized*) C:\xampp\htdocs\curso\expenses\controllers\login.php:13
+[05-Feb-2023 13:35:19 America/Lima] PHP   5. require() C:\xampp\htdocs\curso\expenses\libs\view.php:16
+[05-Feb-2023 13:35:31 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 13:35:31 America/Lima] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\curso\expenses\libs\app.php on line 11
+[05-Feb-2023 13:35:31 America/Lima] PHP Stack trace:
+[05-Feb-2023 13:35:31 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[05-Feb-2023 13:35:31 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[05-Feb-2023 13:35:31 America/Lima] PHP   3. rtrim($string = NULL, $characters = '/') C:\xampp\htdocs\curso\expenses\libs\app.php:11
+[05-Feb-2023 13:35:31 America/Lima] App::construct-> No hay controlador especificado
+[05-Feb-2023 13:35:31 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 13:35:31 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/, url =>
+[05-Feb-2023 13:35:31 America/Lima] sessionController::isPublic(): currentURL => 
+[05-Feb-2023 13:35:31 America/Lima] Login::construct -> Inicio de Login
+[05-Feb-2023 13:35:31 America/Lima] Login::render -> Carga el index del login
+[05-Feb-2023 13:35:31 America/Lima] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\curso\expenses\views\login\index.php on line 12
+[05-Feb-2023 13:35:31 America/Lima] PHP Stack trace:
+[05-Feb-2023 13:35:31 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[05-Feb-2023 13:35:31 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[05-Feb-2023 13:35:31 America/Lima] PHP   3. Login->render() C:\xampp\htdocs\curso\expenses\libs\app.php:20
+[05-Feb-2023 13:35:31 America/Lima] PHP   4. View->render($nombre = 'login/index', $data = *uninitialized*) C:\xampp\htdocs\curso\expenses\controllers\login.php:13
+[05-Feb-2023 13:35:31 America/Lima] PHP   5. require() C:\xampp\htdocs\curso\expenses\libs\view.php:16
+[05-Feb-2023 13:35:43 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 13:35:43 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 13:35:43 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/login/authenticate, url =>login
+[05-Feb-2023 13:35:43 America/Lima] sessionController::isPublic(): currentURL => login
+[05-Feb-2023 13:35:43 America/Lima] Login::construct -> Inicio de Login
+[05-Feb-2023 13:35:43 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 13:35:43 America/Lima] LoginModel::login->sucess
+[05-Feb-2023 13:35:43 America/Lima] sessionController::initialize(): user: dieguito
+[05-Feb-2023 13:35:43 America/Lima] sessionController::authorizeAccess(): role: user
+[05-Feb-2023 13:35:43 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 13:35:43 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 13:35:43 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 13:35:43 America/Lima] sessionController::getUserSessionData(): dieguito
+[05-Feb-2023 13:35:43 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 13:35:43 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[05-Feb-2023 13:35:43 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 13:35:43 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[05-Feb-2023 13:35:43 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[05-Feb-2023 13:35:43 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[05-Feb-2023 13:40:34 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 13:40:34 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 13:40:34 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 13:40:34 America/Lima] sessionController::getUserSessionData(): dieguito
+[05-Feb-2023 13:40:34 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 13:40:34 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[05-Feb-2023 13:40:34 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 13:40:34 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[05-Feb-2023 13:40:34 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[05-Feb-2023 13:40:34 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[05-Feb-2023 13:40:44 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 13:40:44 America/Lima] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\curso\expenses\libs\app.php on line 11
+[05-Feb-2023 13:40:44 America/Lima] PHP Stack trace:
+[05-Feb-2023 13:40:44 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[05-Feb-2023 13:40:44 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[05-Feb-2023 13:40:44 America/Lima] PHP   3. rtrim($string = NULL, $characters = '/') C:\xampp\htdocs\curso\expenses\libs\app.php:11
+[05-Feb-2023 13:40:44 America/Lima] App::construct-> No hay controlador especificado
+[05-Feb-2023 13:40:44 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 13:40:44 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/, url =>
+[05-Feb-2023 13:40:44 America/Lima] sessionController::isPublic(): currentURL => 
+[05-Feb-2023 13:40:44 America/Lima] Login::construct -> Inicio de Login
+[05-Feb-2023 13:40:44 America/Lima] Login::render -> Carga el index del login
+[05-Feb-2023 13:40:44 America/Lima] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\curso\expenses\views\login\index.php on line 12
+[05-Feb-2023 13:40:44 America/Lima] PHP Stack trace:
+[05-Feb-2023 13:40:44 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[05-Feb-2023 13:40:44 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[05-Feb-2023 13:40:44 America/Lima] PHP   3. Login->render() C:\xampp\htdocs\curso\expenses\libs\app.php:20
+[05-Feb-2023 13:40:44 America/Lima] PHP   4. View->render($nombre = 'login/index', $data = *uninitialized*) C:\xampp\htdocs\curso\expenses\controllers\login.php:13
+[05-Feb-2023 13:40:44 America/Lima] PHP   5. require() C:\xampp\htdocs\curso\expenses\libs\view.php:16
+[05-Feb-2023 13:40:44 America/Lima] PHP   6. session_start() C:\xampp\htdocs\curso\expenses\views\login\index.php:12
+[05-Feb-2023 13:40:44 America/Lima] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\curso\expenses\views\login\index.php on line 13
+[05-Feb-2023 13:40:44 America/Lima] PHP Stack trace:
+[05-Feb-2023 13:40:44 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[05-Feb-2023 13:40:44 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[05-Feb-2023 13:40:44 America/Lima] PHP   3. Login->render() C:\xampp\htdocs\curso\expenses\libs\app.php:20
+[05-Feb-2023 13:40:44 America/Lima] PHP   4. View->render($nombre = 'login/index', $data = *uninitialized*) C:\xampp\htdocs\curso\expenses\controllers\login.php:13
+[05-Feb-2023 13:40:44 America/Lima] PHP   5. require() C:\xampp\htdocs\curso\expenses\libs\view.php:16
+[05-Feb-2023 13:41:06 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 13:41:06 America/Lima] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\curso\expenses\libs\app.php on line 11
+[05-Feb-2023 13:41:06 America/Lima] PHP Stack trace:
+[05-Feb-2023 13:41:06 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[05-Feb-2023 13:41:06 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[05-Feb-2023 13:41:06 America/Lima] PHP   3. rtrim($string = NULL, $characters = '/') C:\xampp\htdocs\curso\expenses\libs\app.php:11
+[05-Feb-2023 13:41:06 America/Lima] App::construct-> No hay controlador especificado
+[05-Feb-2023 13:41:06 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 13:41:06 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/, url =>
+[05-Feb-2023 13:41:06 America/Lima] sessionController::isPublic(): currentURL => 
+[05-Feb-2023 13:41:06 America/Lima] Login::construct -> Inicio de Login
+[05-Feb-2023 13:41:06 America/Lima] Login::render -> Carga el index del login
+[05-Feb-2023 13:41:06 America/Lima] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\curso\expenses\views\login\index.php on line 12
+[05-Feb-2023 13:41:06 America/Lima] PHP Stack trace:
+[05-Feb-2023 13:41:06 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[05-Feb-2023 13:41:06 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[05-Feb-2023 13:41:06 America/Lima] PHP   3. Login->render() C:\xampp\htdocs\curso\expenses\libs\app.php:20
+[05-Feb-2023 13:41:06 America/Lima] PHP   4. View->render($nombre = 'login/index', $data = *uninitialized*) C:\xampp\htdocs\curso\expenses\controllers\login.php:13
+[05-Feb-2023 13:41:06 America/Lima] PHP   5. require() C:\xampp\htdocs\curso\expenses\libs\view.php:16
+[05-Feb-2023 13:41:06 America/Lima] PHP   6. session_start() C:\xampp\htdocs\curso\expenses\views\login\index.php:12
+[05-Feb-2023 13:41:06 America/Lima] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\curso\expenses\views\login\index.php on line 13
+[05-Feb-2023 13:41:06 America/Lima] PHP Stack trace:
+[05-Feb-2023 13:41:06 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[05-Feb-2023 13:41:06 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[05-Feb-2023 13:41:06 America/Lima] PHP   3. Login->render() C:\xampp\htdocs\curso\expenses\libs\app.php:20
+[05-Feb-2023 13:41:06 America/Lima] PHP   4. View->render($nombre = 'login/index', $data = *uninitialized*) C:\xampp\htdocs\curso\expenses\controllers\login.php:13
+[05-Feb-2023 13:41:06 America/Lima] PHP   5. require() C:\xampp\htdocs\curso\expenses\libs\view.php:16
+[05-Feb-2023 13:41:07 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 13:41:07 America/Lima] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\curso\expenses\libs\app.php on line 11
+[05-Feb-2023 13:41:07 America/Lima] PHP Stack trace:
+[05-Feb-2023 13:41:07 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[05-Feb-2023 13:41:07 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[05-Feb-2023 13:41:07 America/Lima] PHP   3. rtrim($string = NULL, $characters = '/') C:\xampp\htdocs\curso\expenses\libs\app.php:11
+[05-Feb-2023 13:41:07 America/Lima] App::construct-> No hay controlador especificado
+[05-Feb-2023 13:41:07 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 13:41:07 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 13:41:07 America/Lima] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\curso\expenses\models\usermodel.php on line 74
+[05-Feb-2023 13:41:07 America/Lima] PHP Stack trace:
+[05-Feb-2023 13:41:07 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[05-Feb-2023 13:41:07 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[05-Feb-2023 13:41:07 America/Lima] PHP   3. Login->__construct() C:\xampp\htdocs\curso\expenses\libs\app.php:18
+[05-Feb-2023 13:41:07 America/Lima] PHP   4. SessionController->__construct() C:\xampp\htdocs\curso\expenses\controllers\login.php:7
+[05-Feb-2023 13:41:07 America/Lima] PHP   5. SessionController->init() C:\xampp\htdocs\curso\expenses\classes\sessionController.php:18
+[05-Feb-2023 13:41:07 America/Lima] PHP   6. SessionController->validateSession() C:\xampp\htdocs\curso\expenses\classes\sessionController.php:27
+[05-Feb-2023 13:41:07 America/Lima] PHP   7. SessionController->getUserSessionData() C:\xampp\htdocs\curso\expenses\classes\sessionController.php:40
+[05-Feb-2023 13:41:07 America/Lima] PHP   8. UserModel->get($id = 'aea') C:\xampp\htdocs\curso\expenses\classes\sessionController.php:93
+[05-Feb-2023 13:41:07 America/Lima] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\curso\expenses\models\usermodel.php on line 75
+[05-Feb-2023 13:41:07 America/Lima] PHP Stack trace:
+[05-Feb-2023 13:41:07 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[05-Feb-2023 13:41:07 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[05-Feb-2023 13:41:07 America/Lima] PHP   3. Login->__construct() C:\xampp\htdocs\curso\expenses\libs\app.php:18
+[05-Feb-2023 13:41:07 America/Lima] PHP   4. SessionController->__construct() C:\xampp\htdocs\curso\expenses\controllers\login.php:7
+[05-Feb-2023 13:41:07 America/Lima] PHP   5. SessionController->init() C:\xampp\htdocs\curso\expenses\classes\sessionController.php:18
+[05-Feb-2023 13:41:07 America/Lima] PHP   6. SessionController->validateSession() C:\xampp\htdocs\curso\expenses\classes\sessionController.php:27
+[05-Feb-2023 13:41:07 America/Lima] PHP   7. SessionController->getUserSessionData() C:\xampp\htdocs\curso\expenses\classes\sessionController.php:40
+[05-Feb-2023 13:41:07 America/Lima] PHP   8. UserModel->get($id = 'aea') C:\xampp\htdocs\curso\expenses\classes\sessionController.php:93
+[05-Feb-2023 13:41:07 America/Lima] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\curso\expenses\models\usermodel.php on line 76
+[05-Feb-2023 13:41:07 America/Lima] PHP Stack trace:
+[05-Feb-2023 13:41:07 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[05-Feb-2023 13:41:07 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[05-Feb-2023 13:41:07 America/Lima] PHP   3. Login->__construct() C:\xampp\htdocs\curso\expenses\libs\app.php:18
+[05-Feb-2023 13:41:07 America/Lima] PHP   4. SessionController->__construct() C:\xampp\htdocs\curso\expenses\controllers\login.php:7
+[05-Feb-2023 13:41:07 America/Lima] PHP   5. SessionController->init() C:\xampp\htdocs\curso\expenses\classes\sessionController.php:18
+[05-Feb-2023 13:41:07 America/Lima] PHP   6. SessionController->validateSession() C:\xampp\htdocs\curso\expenses\classes\sessionController.php:27
+[05-Feb-2023 13:41:07 America/Lima] PHP   7. SessionController->getUserSessionData() C:\xampp\htdocs\curso\expenses\classes\sessionController.php:40
+[05-Feb-2023 13:41:07 America/Lima] PHP   8. UserModel->get($id = 'aea') C:\xampp\htdocs\curso\expenses\classes\sessionController.php:93
+[05-Feb-2023 13:41:07 America/Lima] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\xampp\htdocs\curso\expenses\models\usermodel.php on line 160
+[05-Feb-2023 13:41:07 America/Lima] PHP Stack trace:
+[05-Feb-2023 13:41:07 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[05-Feb-2023 13:41:07 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[05-Feb-2023 13:41:07 America/Lima] PHP   3. Login->__construct() C:\xampp\htdocs\curso\expenses\libs\app.php:18
+[05-Feb-2023 13:41:07 America/Lima] PHP   4. SessionController->__construct() C:\xampp\htdocs\curso\expenses\controllers\login.php:7
+[05-Feb-2023 13:41:07 America/Lima] PHP   5. SessionController->init() C:\xampp\htdocs\curso\expenses\classes\sessionController.php:18
+[05-Feb-2023 13:41:07 America/Lima] PHP   6. SessionController->validateSession() C:\xampp\htdocs\curso\expenses\classes\sessionController.php:27
+[05-Feb-2023 13:41:07 America/Lima] PHP   7. SessionController->getUserSessionData() C:\xampp\htdocs\curso\expenses\classes\sessionController.php:40
+[05-Feb-2023 13:41:07 America/Lima] PHP   8. UserModel->get($id = 'aea') C:\xampp\htdocs\curso\expenses\classes\sessionController.php:93
+[05-Feb-2023 13:41:07 America/Lima] PHP   9. UserModel->setPassword($password = NULL, $hash = *uninitialized*) C:\xampp\htdocs\curso\expenses\models\usermodel.php:76
+[05-Feb-2023 13:41:07 America/Lima] PHP  10. UserModel->getHashedPassword($password = NULL) C:\xampp\htdocs\curso\expenses\models\usermodel.php:165
+[05-Feb-2023 13:41:07 America/Lima] PHP  11. password_hash($password = NULL, $algo = '2y', $options = ['cost' => 10]) C:\xampp\htdocs\curso\expenses\models\usermodel.php:160
+[05-Feb-2023 13:41:07 America/Lima] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\curso\expenses\models\usermodel.php on line 77
+[05-Feb-2023 13:41:07 America/Lima] PHP Stack trace:
+[05-Feb-2023 13:41:07 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[05-Feb-2023 13:41:07 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[05-Feb-2023 13:41:07 America/Lima] PHP   3. Login->__construct() C:\xampp\htdocs\curso\expenses\libs\app.php:18
+[05-Feb-2023 13:41:07 America/Lima] PHP   4. SessionController->__construct() C:\xampp\htdocs\curso\expenses\controllers\login.php:7
+[05-Feb-2023 13:41:07 America/Lima] PHP   5. SessionController->init() C:\xampp\htdocs\curso\expenses\classes\sessionController.php:18
+[05-Feb-2023 13:41:07 America/Lima] PHP   6. SessionController->validateSession() C:\xampp\htdocs\curso\expenses\classes\sessionController.php:27
+[05-Feb-2023 13:41:07 America/Lima] PHP   7. SessionController->getUserSessionData() C:\xampp\htdocs\curso\expenses\classes\sessionController.php:40
+[05-Feb-2023 13:41:07 America/Lima] PHP   8. UserModel->get($id = 'aea') C:\xampp\htdocs\curso\expenses\classes\sessionController.php:93
+[05-Feb-2023 13:41:07 America/Lima] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\curso\expenses\models\usermodel.php on line 78
+[05-Feb-2023 13:41:07 America/Lima] PHP Stack trace:
+[05-Feb-2023 13:41:07 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[05-Feb-2023 13:41:07 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[05-Feb-2023 13:41:07 America/Lima] PHP   3. Login->__construct() C:\xampp\htdocs\curso\expenses\libs\app.php:18
+[05-Feb-2023 13:41:07 America/Lima] PHP   4. SessionController->__construct() C:\xampp\htdocs\curso\expenses\controllers\login.php:7
+[05-Feb-2023 13:41:07 America/Lima] PHP   5. SessionController->init() C:\xampp\htdocs\curso\expenses\classes\sessionController.php:18
+[05-Feb-2023 13:41:07 America/Lima] PHP   6. SessionController->validateSession() C:\xampp\htdocs\curso\expenses\classes\sessionController.php:27
+[05-Feb-2023 13:41:07 America/Lima] PHP   7. SessionController->getUserSessionData() C:\xampp\htdocs\curso\expenses\classes\sessionController.php:40
+[05-Feb-2023 13:41:07 America/Lima] PHP   8. UserModel->get($id = 'aea') C:\xampp\htdocs\curso\expenses\classes\sessionController.php:93
+[05-Feb-2023 13:41:07 America/Lima] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\curso\expenses\models\usermodel.php on line 79
+[05-Feb-2023 13:41:07 America/Lima] PHP Stack trace:
+[05-Feb-2023 13:41:07 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[05-Feb-2023 13:41:07 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[05-Feb-2023 13:41:07 America/Lima] PHP   3. Login->__construct() C:\xampp\htdocs\curso\expenses\libs\app.php:18
+[05-Feb-2023 13:41:07 America/Lima] PHP   4. SessionController->__construct() C:\xampp\htdocs\curso\expenses\controllers\login.php:7
+[05-Feb-2023 13:41:07 America/Lima] PHP   5. SessionController->init() C:\xampp\htdocs\curso\expenses\classes\sessionController.php:18
+[05-Feb-2023 13:41:07 America/Lima] PHP   6. SessionController->validateSession() C:\xampp\htdocs\curso\expenses\classes\sessionController.php:27
+[05-Feb-2023 13:41:07 America/Lima] PHP   7. SessionController->getUserSessionData() C:\xampp\htdocs\curso\expenses\classes\sessionController.php:40
+[05-Feb-2023 13:41:07 America/Lima] PHP   8. UserModel->get($id = 'aea') C:\xampp\htdocs\curso\expenses\classes\sessionController.php:93
+[05-Feb-2023 13:41:07 America/Lima] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\curso\expenses\models\usermodel.php on line 80
+[05-Feb-2023 13:41:07 America/Lima] PHP Stack trace:
+[05-Feb-2023 13:41:07 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[05-Feb-2023 13:41:07 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[05-Feb-2023 13:41:07 America/Lima] PHP   3. Login->__construct() C:\xampp\htdocs\curso\expenses\libs\app.php:18
+[05-Feb-2023 13:41:07 America/Lima] PHP   4. SessionController->__construct() C:\xampp\htdocs\curso\expenses\controllers\login.php:7
+[05-Feb-2023 13:41:07 America/Lima] PHP   5. SessionController->init() C:\xampp\htdocs\curso\expenses\classes\sessionController.php:18
+[05-Feb-2023 13:41:07 America/Lima] PHP   6. SessionController->validateSession() C:\xampp\htdocs\curso\expenses\classes\sessionController.php:27
+[05-Feb-2023 13:41:07 America/Lima] PHP   7. SessionController->getUserSessionData() C:\xampp\htdocs\curso\expenses\classes\sessionController.php:40
+[05-Feb-2023 13:41:07 America/Lima] PHP   8. UserModel->get($id = 'aea') C:\xampp\htdocs\curso\expenses\classes\sessionController.php:93
+[05-Feb-2023 13:41:07 America/Lima] sessionController::getUserSessionData(): 
+[05-Feb-2023 13:41:07 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/, url =>
+[05-Feb-2023 13:41:07 America/Lima] sessionController::isPublic(): currentURL => 
+[05-Feb-2023 13:41:07 America/Lima] SessionController::validateSession() => sitio público, redirige al main de cada rol
+[05-Feb-2023 13:41:07 America/Lima] Login::construct -> Inicio de Login
+[05-Feb-2023 13:41:07 America/Lima] Login::render -> Carga el index del login
+[05-Feb-2023 13:41:07 America/Lima] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\curso\expenses\views\login\index.php on line 12
+[05-Feb-2023 13:41:07 America/Lima] PHP Stack trace:
+[05-Feb-2023 13:41:07 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[05-Feb-2023 13:41:07 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[05-Feb-2023 13:41:07 America/Lima] PHP   3. Login->render() C:\xampp\htdocs\curso\expenses\libs\app.php:20
+[05-Feb-2023 13:41:07 America/Lima] PHP   4. View->render($nombre = 'login/index', $data = *uninitialized*) C:\xampp\htdocs\curso\expenses\controllers\login.php:13
+[05-Feb-2023 13:41:07 America/Lima] PHP   5. require() C:\xampp\htdocs\curso\expenses\libs\view.php:16
+[05-Feb-2023 13:41:07 America/Lima] PHP   6. session_start() C:\xampp\htdocs\curso\expenses\views\login\index.php:12
+[05-Feb-2023 13:41:09 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 13:41:09 America/Lima] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\curso\expenses\libs\app.php on line 11
+[05-Feb-2023 13:41:09 America/Lima] PHP Stack trace:
+[05-Feb-2023 13:41:09 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[05-Feb-2023 13:41:09 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[05-Feb-2023 13:41:09 America/Lima] PHP   3. rtrim($string = NULL, $characters = '/') C:\xampp\htdocs\curso\expenses\libs\app.php:11
+[05-Feb-2023 13:41:09 America/Lima] App::construct-> No hay controlador especificado
+[05-Feb-2023 13:41:09 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 13:41:09 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 13:41:09 America/Lima] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\curso\expenses\models\usermodel.php on line 74
+[05-Feb-2023 13:41:09 America/Lima] PHP Stack trace:
+[05-Feb-2023 13:41:09 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[05-Feb-2023 13:41:09 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[05-Feb-2023 13:41:09 America/Lima] PHP   3. Login->__construct() C:\xampp\htdocs\curso\expenses\libs\app.php:18
+[05-Feb-2023 13:41:09 America/Lima] PHP   4. SessionController->__construct() C:\xampp\htdocs\curso\expenses\controllers\login.php:7
+[05-Feb-2023 13:41:09 America/Lima] PHP   5. SessionController->init() C:\xampp\htdocs\curso\expenses\classes\sessionController.php:18
+[05-Feb-2023 13:41:09 America/Lima] PHP   6. SessionController->validateSession() C:\xampp\htdocs\curso\expenses\classes\sessionController.php:27
+[05-Feb-2023 13:41:09 America/Lima] PHP   7. SessionController->getUserSessionData() C:\xampp\htdocs\curso\expenses\classes\sessionController.php:40
+[05-Feb-2023 13:41:09 America/Lima] PHP   8. UserModel->get($id = 'aea') C:\xampp\htdocs\curso\expenses\classes\sessionController.php:93
+[05-Feb-2023 13:41:09 America/Lima] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\curso\expenses\models\usermodel.php on line 75
+[05-Feb-2023 13:41:09 America/Lima] PHP Stack trace:
+[05-Feb-2023 13:41:09 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[05-Feb-2023 13:41:09 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[05-Feb-2023 13:41:09 America/Lima] PHP   3. Login->__construct() C:\xampp\htdocs\curso\expenses\libs\app.php:18
+[05-Feb-2023 13:41:09 America/Lima] PHP   4. SessionController->__construct() C:\xampp\htdocs\curso\expenses\controllers\login.php:7
+[05-Feb-2023 13:41:09 America/Lima] PHP   5. SessionController->init() C:\xampp\htdocs\curso\expenses\classes\sessionController.php:18
+[05-Feb-2023 13:41:09 America/Lima] PHP   6. SessionController->validateSession() C:\xampp\htdocs\curso\expenses\classes\sessionController.php:27
+[05-Feb-2023 13:41:09 America/Lima] PHP   7. SessionController->getUserSessionData() C:\xampp\htdocs\curso\expenses\classes\sessionController.php:40
+[05-Feb-2023 13:41:09 America/Lima] PHP   8. UserModel->get($id = 'aea') C:\xampp\htdocs\curso\expenses\classes\sessionController.php:93
+[05-Feb-2023 13:41:09 America/Lima] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\curso\expenses\models\usermodel.php on line 76
+[05-Feb-2023 13:41:09 America/Lima] PHP Stack trace:
+[05-Feb-2023 13:41:09 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[05-Feb-2023 13:41:09 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[05-Feb-2023 13:41:09 America/Lima] PHP   3. Login->__construct() C:\xampp\htdocs\curso\expenses\libs\app.php:18
+[05-Feb-2023 13:41:09 America/Lima] PHP   4. SessionController->__construct() C:\xampp\htdocs\curso\expenses\controllers\login.php:7
+[05-Feb-2023 13:41:09 America/Lima] PHP   5. SessionController->init() C:\xampp\htdocs\curso\expenses\classes\sessionController.php:18
+[05-Feb-2023 13:41:09 America/Lima] PHP   6. SessionController->validateSession() C:\xampp\htdocs\curso\expenses\classes\sessionController.php:27
+[05-Feb-2023 13:41:09 America/Lima] PHP   7. SessionController->getUserSessionData() C:\xampp\htdocs\curso\expenses\classes\sessionController.php:40
+[05-Feb-2023 13:41:09 America/Lima] PHP   8. UserModel->get($id = 'aea') C:\xampp\htdocs\curso\expenses\classes\sessionController.php:93
+[05-Feb-2023 13:41:09 America/Lima] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\xampp\htdocs\curso\expenses\models\usermodel.php on line 160
+[05-Feb-2023 13:41:09 America/Lima] PHP Stack trace:
+[05-Feb-2023 13:41:09 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[05-Feb-2023 13:41:09 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[05-Feb-2023 13:41:09 America/Lima] PHP   3. Login->__construct() C:\xampp\htdocs\curso\expenses\libs\app.php:18
+[05-Feb-2023 13:41:09 America/Lima] PHP   4. SessionController->__construct() C:\xampp\htdocs\curso\expenses\controllers\login.php:7
+[05-Feb-2023 13:41:09 America/Lima] PHP   5. SessionController->init() C:\xampp\htdocs\curso\expenses\classes\sessionController.php:18
+[05-Feb-2023 13:41:09 America/Lima] PHP   6. SessionController->validateSession() C:\xampp\htdocs\curso\expenses\classes\sessionController.php:27
+[05-Feb-2023 13:41:09 America/Lima] PHP   7. SessionController->getUserSessionData() C:\xampp\htdocs\curso\expenses\classes\sessionController.php:40
+[05-Feb-2023 13:41:09 America/Lima] PHP   8. UserModel->get($id = 'aea') C:\xampp\htdocs\curso\expenses\classes\sessionController.php:93
+[05-Feb-2023 13:41:09 America/Lima] PHP   9. UserModel->setPassword($password = NULL, $hash = *uninitialized*) C:\xampp\htdocs\curso\expenses\models\usermodel.php:76
+[05-Feb-2023 13:41:09 America/Lima] PHP  10. UserModel->getHashedPassword($password = NULL) C:\xampp\htdocs\curso\expenses\models\usermodel.php:165
+[05-Feb-2023 13:41:09 America/Lima] PHP  11. password_hash($password = NULL, $algo = '2y', $options = ['cost' => 10]) C:\xampp\htdocs\curso\expenses\models\usermodel.php:160
+[05-Feb-2023 13:41:09 America/Lima] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\curso\expenses\models\usermodel.php on line 77
+[05-Feb-2023 13:41:09 America/Lima] PHP Stack trace:
+[05-Feb-2023 13:41:09 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[05-Feb-2023 13:41:09 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[05-Feb-2023 13:41:09 America/Lima] PHP   3. Login->__construct() C:\xampp\htdocs\curso\expenses\libs\app.php:18
+[05-Feb-2023 13:41:09 America/Lima] PHP   4. SessionController->__construct() C:\xampp\htdocs\curso\expenses\controllers\login.php:7
+[05-Feb-2023 13:41:09 America/Lima] PHP   5. SessionController->init() C:\xampp\htdocs\curso\expenses\classes\sessionController.php:18
+[05-Feb-2023 13:41:09 America/Lima] PHP   6. SessionController->validateSession() C:\xampp\htdocs\curso\expenses\classes\sessionController.php:27
+[05-Feb-2023 13:41:09 America/Lima] PHP   7. SessionController->getUserSessionData() C:\xampp\htdocs\curso\expenses\classes\sessionController.php:40
+[05-Feb-2023 13:41:09 America/Lima] PHP   8. UserModel->get($id = 'aea') C:\xampp\htdocs\curso\expenses\classes\sessionController.php:93
+[05-Feb-2023 13:41:09 America/Lima] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\curso\expenses\models\usermodel.php on line 78
+[05-Feb-2023 13:41:09 America/Lima] PHP Stack trace:
+[05-Feb-2023 13:41:09 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[05-Feb-2023 13:41:09 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[05-Feb-2023 13:41:09 America/Lima] PHP   3. Login->__construct() C:\xampp\htdocs\curso\expenses\libs\app.php:18
+[05-Feb-2023 13:41:09 America/Lima] PHP   4. SessionController->__construct() C:\xampp\htdocs\curso\expenses\controllers\login.php:7
+[05-Feb-2023 13:41:09 America/Lima] PHP   5. SessionController->init() C:\xampp\htdocs\curso\expenses\classes\sessionController.php:18
+[05-Feb-2023 13:41:09 America/Lima] PHP   6. SessionController->validateSession() C:\xampp\htdocs\curso\expenses\classes\sessionController.php:27
+[05-Feb-2023 13:41:09 America/Lima] PHP   7. SessionController->getUserSessionData() C:\xampp\htdocs\curso\expenses\classes\sessionController.php:40
+[05-Feb-2023 13:41:09 America/Lima] PHP   8. UserModel->get($id = 'aea') C:\xampp\htdocs\curso\expenses\classes\sessionController.php:93
+[05-Feb-2023 13:41:09 America/Lima] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\curso\expenses\models\usermodel.php on line 79
+[05-Feb-2023 13:41:09 America/Lima] PHP Stack trace:
+[05-Feb-2023 13:41:09 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[05-Feb-2023 13:41:09 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[05-Feb-2023 13:41:09 America/Lima] PHP   3. Login->__construct() C:\xampp\htdocs\curso\expenses\libs\app.php:18
+[05-Feb-2023 13:41:09 America/Lima] PHP   4. SessionController->__construct() C:\xampp\htdocs\curso\expenses\controllers\login.php:7
+[05-Feb-2023 13:41:09 America/Lima] PHP   5. SessionController->init() C:\xampp\htdocs\curso\expenses\classes\sessionController.php:18
+[05-Feb-2023 13:41:09 America/Lima] PHP   6. SessionController->validateSession() C:\xampp\htdocs\curso\expenses\classes\sessionController.php:27
+[05-Feb-2023 13:41:09 America/Lima] PHP   7. SessionController->getUserSessionData() C:\xampp\htdocs\curso\expenses\classes\sessionController.php:40
+[05-Feb-2023 13:41:09 America/Lima] PHP   8. UserModel->get($id = 'aea') C:\xampp\htdocs\curso\expenses\classes\sessionController.php:93
+[05-Feb-2023 13:41:09 America/Lima] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\curso\expenses\models\usermodel.php on line 80
+[05-Feb-2023 13:41:09 America/Lima] PHP Stack trace:
+[05-Feb-2023 13:41:09 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[05-Feb-2023 13:41:09 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[05-Feb-2023 13:41:09 America/Lima] PHP   3. Login->__construct() C:\xampp\htdocs\curso\expenses\libs\app.php:18
+[05-Feb-2023 13:41:09 America/Lima] PHP   4. SessionController->__construct() C:\xampp\htdocs\curso\expenses\controllers\login.php:7
+[05-Feb-2023 13:41:09 America/Lima] PHP   5. SessionController->init() C:\xampp\htdocs\curso\expenses\classes\sessionController.php:18
+[05-Feb-2023 13:41:09 America/Lima] PHP   6. SessionController->validateSession() C:\xampp\htdocs\curso\expenses\classes\sessionController.php:27
+[05-Feb-2023 13:41:09 America/Lima] PHP   7. SessionController->getUserSessionData() C:\xampp\htdocs\curso\expenses\classes\sessionController.php:40
+[05-Feb-2023 13:41:09 America/Lima] PHP   8. UserModel->get($id = 'aea') C:\xampp\htdocs\curso\expenses\classes\sessionController.php:93
+[05-Feb-2023 13:41:09 America/Lima] sessionController::getUserSessionData(): 
+[05-Feb-2023 13:41:09 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/, url =>
+[05-Feb-2023 13:41:09 America/Lima] sessionController::isPublic(): currentURL => 
+[05-Feb-2023 13:41:09 America/Lima] SessionController::validateSession() => sitio público, redirige al main de cada rol
+[05-Feb-2023 13:41:09 America/Lima] Login::construct -> Inicio de Login
+[05-Feb-2023 13:41:09 America/Lima] Login::render -> Carga el index del login
+[05-Feb-2023 13:41:09 America/Lima] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\curso\expenses\views\login\index.php on line 12
+[05-Feb-2023 13:41:09 America/Lima] PHP Stack trace:
+[05-Feb-2023 13:41:09 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[05-Feb-2023 13:41:09 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[05-Feb-2023 13:41:09 America/Lima] PHP   3. Login->render() C:\xampp\htdocs\curso\expenses\libs\app.php:20
+[05-Feb-2023 13:41:09 America/Lima] PHP   4. View->render($nombre = 'login/index', $data = *uninitialized*) C:\xampp\htdocs\curso\expenses\controllers\login.php:13
+[05-Feb-2023 13:41:09 America/Lima] PHP   5. require() C:\xampp\htdocs\curso\expenses\libs\view.php:16
+[05-Feb-2023 13:41:09 America/Lima] PHP   6. session_start() C:\xampp\htdocs\curso\expenses\views\login\index.php:12
+[05-Feb-2023 13:41:10 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 13:41:10 America/Lima] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\curso\expenses\libs\app.php on line 11
+[05-Feb-2023 13:41:10 America/Lima] PHP Stack trace:
+[05-Feb-2023 13:41:10 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[05-Feb-2023 13:41:10 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[05-Feb-2023 13:41:10 America/Lima] PHP   3. rtrim($string = NULL, $characters = '/') C:\xampp\htdocs\curso\expenses\libs\app.php:11
+[05-Feb-2023 13:41:10 America/Lima] App::construct-> No hay controlador especificado
+[05-Feb-2023 13:41:10 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 13:41:10 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 13:41:10 America/Lima] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\curso\expenses\models\usermodel.php on line 74
+[05-Feb-2023 13:41:10 America/Lima] PHP Stack trace:
+[05-Feb-2023 13:41:10 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[05-Feb-2023 13:41:10 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[05-Feb-2023 13:41:10 America/Lima] PHP   3. Login->__construct() C:\xampp\htdocs\curso\expenses\libs\app.php:18
+[05-Feb-2023 13:41:10 America/Lima] PHP   4. SessionController->__construct() C:\xampp\htdocs\curso\expenses\controllers\login.php:7
+[05-Feb-2023 13:41:10 America/Lima] PHP   5. SessionController->init() C:\xampp\htdocs\curso\expenses\classes\sessionController.php:18
+[05-Feb-2023 13:41:10 America/Lima] PHP   6. SessionController->validateSession() C:\xampp\htdocs\curso\expenses\classes\sessionController.php:27
+[05-Feb-2023 13:41:10 America/Lima] PHP   7. SessionController->getUserSessionData() C:\xampp\htdocs\curso\expenses\classes\sessionController.php:40
+[05-Feb-2023 13:41:10 America/Lima] PHP   8. UserModel->get($id = 'aea') C:\xampp\htdocs\curso\expenses\classes\sessionController.php:93
+[05-Feb-2023 13:41:10 America/Lima] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\curso\expenses\models\usermodel.php on line 75
+[05-Feb-2023 13:41:10 America/Lima] PHP Stack trace:
+[05-Feb-2023 13:41:10 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[05-Feb-2023 13:41:10 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[05-Feb-2023 13:41:10 America/Lima] PHP   3. Login->__construct() C:\xampp\htdocs\curso\expenses\libs\app.php:18
+[05-Feb-2023 13:41:10 America/Lima] PHP   4. SessionController->__construct() C:\xampp\htdocs\curso\expenses\controllers\login.php:7
+[05-Feb-2023 13:41:10 America/Lima] PHP   5. SessionController->init() C:\xampp\htdocs\curso\expenses\classes\sessionController.php:18
+[05-Feb-2023 13:41:10 America/Lima] PHP   6. SessionController->validateSession() C:\xampp\htdocs\curso\expenses\classes\sessionController.php:27
+[05-Feb-2023 13:41:10 America/Lima] PHP   7. SessionController->getUserSessionData() C:\xampp\htdocs\curso\expenses\classes\sessionController.php:40
+[05-Feb-2023 13:41:10 America/Lima] PHP   8. UserModel->get($id = 'aea') C:\xampp\htdocs\curso\expenses\classes\sessionController.php:93
+[05-Feb-2023 13:41:10 America/Lima] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\curso\expenses\models\usermodel.php on line 76
+[05-Feb-2023 13:41:10 America/Lima] PHP Stack trace:
+[05-Feb-2023 13:41:10 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[05-Feb-2023 13:41:10 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[05-Feb-2023 13:41:10 America/Lima] PHP   3. Login->__construct() C:\xampp\htdocs\curso\expenses\libs\app.php:18
+[05-Feb-2023 13:41:10 America/Lima] PHP   4. SessionController->__construct() C:\xampp\htdocs\curso\expenses\controllers\login.php:7
+[05-Feb-2023 13:41:10 America/Lima] PHP   5. SessionController->init() C:\xampp\htdocs\curso\expenses\classes\sessionController.php:18
+[05-Feb-2023 13:41:10 America/Lima] PHP   6. SessionController->validateSession() C:\xampp\htdocs\curso\expenses\classes\sessionController.php:27
+[05-Feb-2023 13:41:10 America/Lima] PHP   7. SessionController->getUserSessionData() C:\xampp\htdocs\curso\expenses\classes\sessionController.php:40
+[05-Feb-2023 13:41:10 America/Lima] PHP   8. UserModel->get($id = 'aea') C:\xampp\htdocs\curso\expenses\classes\sessionController.php:93
+[05-Feb-2023 13:41:10 America/Lima] PHP Deprecated:  password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\xampp\htdocs\curso\expenses\models\usermodel.php on line 160
+[05-Feb-2023 13:41:10 America/Lima] PHP Stack trace:
+[05-Feb-2023 13:41:10 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[05-Feb-2023 13:41:10 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[05-Feb-2023 13:41:10 America/Lima] PHP   3. Login->__construct() C:\xampp\htdocs\curso\expenses\libs\app.php:18
+[05-Feb-2023 13:41:10 America/Lima] PHP   4. SessionController->__construct() C:\xampp\htdocs\curso\expenses\controllers\login.php:7
+[05-Feb-2023 13:41:10 America/Lima] PHP   5. SessionController->init() C:\xampp\htdocs\curso\expenses\classes\sessionController.php:18
+[05-Feb-2023 13:41:10 America/Lima] PHP   6. SessionController->validateSession() C:\xampp\htdocs\curso\expenses\classes\sessionController.php:27
+[05-Feb-2023 13:41:10 America/Lima] PHP   7. SessionController->getUserSessionData() C:\xampp\htdocs\curso\expenses\classes\sessionController.php:40
+[05-Feb-2023 13:41:10 America/Lima] PHP   8. UserModel->get($id = 'aea') C:\xampp\htdocs\curso\expenses\classes\sessionController.php:93
+[05-Feb-2023 13:41:10 America/Lima] PHP   9. UserModel->setPassword($password = NULL, $hash = *uninitialized*) C:\xampp\htdocs\curso\expenses\models\usermodel.php:76
+[05-Feb-2023 13:41:10 America/Lima] PHP  10. UserModel->getHashedPassword($password = NULL) C:\xampp\htdocs\curso\expenses\models\usermodel.php:165
+[05-Feb-2023 13:41:10 America/Lima] PHP  11. password_hash($password = NULL, $algo = '2y', $options = ['cost' => 10]) C:\xampp\htdocs\curso\expenses\models\usermodel.php:160
+[05-Feb-2023 13:41:10 America/Lima] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\curso\expenses\models\usermodel.php on line 77
+[05-Feb-2023 13:41:10 America/Lima] PHP Stack trace:
+[05-Feb-2023 13:41:10 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[05-Feb-2023 13:41:10 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[05-Feb-2023 13:41:10 America/Lima] PHP   3. Login->__construct() C:\xampp\htdocs\curso\expenses\libs\app.php:18
+[05-Feb-2023 13:41:10 America/Lima] PHP   4. SessionController->__construct() C:\xampp\htdocs\curso\expenses\controllers\login.php:7
+[05-Feb-2023 13:41:10 America/Lima] PHP   5. SessionController->init() C:\xampp\htdocs\curso\expenses\classes\sessionController.php:18
+[05-Feb-2023 13:41:10 America/Lima] PHP   6. SessionController->validateSession() C:\xampp\htdocs\curso\expenses\classes\sessionController.php:27
+[05-Feb-2023 13:41:10 America/Lima] PHP   7. SessionController->getUserSessionData() C:\xampp\htdocs\curso\expenses\classes\sessionController.php:40
+[05-Feb-2023 13:41:10 America/Lima] PHP   8. UserModel->get($id = 'aea') C:\xampp\htdocs\curso\expenses\classes\sessionController.php:93
+[05-Feb-2023 13:41:10 America/Lima] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\curso\expenses\models\usermodel.php on line 78
+[05-Feb-2023 13:41:10 America/Lima] PHP Stack trace:
+[05-Feb-2023 13:41:10 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[05-Feb-2023 13:41:10 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[05-Feb-2023 13:41:10 America/Lima] PHP   3. Login->__construct() C:\xampp\htdocs\curso\expenses\libs\app.php:18
+[05-Feb-2023 13:41:10 America/Lima] PHP   4. SessionController->__construct() C:\xampp\htdocs\curso\expenses\controllers\login.php:7
+[05-Feb-2023 13:41:10 America/Lima] PHP   5. SessionController->init() C:\xampp\htdocs\curso\expenses\classes\sessionController.php:18
+[05-Feb-2023 13:41:10 America/Lima] PHP   6. SessionController->validateSession() C:\xampp\htdocs\curso\expenses\classes\sessionController.php:27
+[05-Feb-2023 13:41:10 America/Lima] PHP   7. SessionController->getUserSessionData() C:\xampp\htdocs\curso\expenses\classes\sessionController.php:40
+[05-Feb-2023 13:41:10 America/Lima] PHP   8. UserModel->get($id = 'aea') C:\xampp\htdocs\curso\expenses\classes\sessionController.php:93
+[05-Feb-2023 13:41:10 America/Lima] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\curso\expenses\models\usermodel.php on line 79
+[05-Feb-2023 13:41:10 America/Lima] PHP Stack trace:
+[05-Feb-2023 13:41:10 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[05-Feb-2023 13:41:10 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[05-Feb-2023 13:41:10 America/Lima] PHP   3. Login->__construct() C:\xampp\htdocs\curso\expenses\libs\app.php:18
+[05-Feb-2023 13:41:10 America/Lima] PHP   4. SessionController->__construct() C:\xampp\htdocs\curso\expenses\controllers\login.php:7
+[05-Feb-2023 13:41:10 America/Lima] PHP   5. SessionController->init() C:\xampp\htdocs\curso\expenses\classes\sessionController.php:18
+[05-Feb-2023 13:41:10 America/Lima] PHP   6. SessionController->validateSession() C:\xampp\htdocs\curso\expenses\classes\sessionController.php:27
+[05-Feb-2023 13:41:10 America/Lima] PHP   7. SessionController->getUserSessionData() C:\xampp\htdocs\curso\expenses\classes\sessionController.php:40
+[05-Feb-2023 13:41:10 America/Lima] PHP   8. UserModel->get($id = 'aea') C:\xampp\htdocs\curso\expenses\classes\sessionController.php:93
+[05-Feb-2023 13:41:10 America/Lima] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\curso\expenses\models\usermodel.php on line 80
+[05-Feb-2023 13:41:10 America/Lima] PHP Stack trace:
+[05-Feb-2023 13:41:10 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[05-Feb-2023 13:41:10 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[05-Feb-2023 13:41:10 America/Lima] PHP   3. Login->__construct() C:\xampp\htdocs\curso\expenses\libs\app.php:18
+[05-Feb-2023 13:41:10 America/Lima] PHP   4. SessionController->__construct() C:\xampp\htdocs\curso\expenses\controllers\login.php:7
+[05-Feb-2023 13:41:10 America/Lima] PHP   5. SessionController->init() C:\xampp\htdocs\curso\expenses\classes\sessionController.php:18
+[05-Feb-2023 13:41:10 America/Lima] PHP   6. SessionController->validateSession() C:\xampp\htdocs\curso\expenses\classes\sessionController.php:27
+[05-Feb-2023 13:41:10 America/Lima] PHP   7. SessionController->getUserSessionData() C:\xampp\htdocs\curso\expenses\classes\sessionController.php:40
+[05-Feb-2023 13:41:10 America/Lima] PHP   8. UserModel->get($id = 'aea') C:\xampp\htdocs\curso\expenses\classes\sessionController.php:93
+[05-Feb-2023 13:41:10 America/Lima] sessionController::getUserSessionData(): 
+[05-Feb-2023 13:41:10 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/, url =>
+[05-Feb-2023 13:41:10 America/Lima] sessionController::isPublic(): currentURL => 
+[05-Feb-2023 13:41:10 America/Lima] SessionController::validateSession() => sitio público, redirige al main de cada rol
+[05-Feb-2023 13:41:10 America/Lima] Login::construct -> Inicio de Login
+[05-Feb-2023 13:41:10 America/Lima] Login::render -> Carga el index del login
+[05-Feb-2023 13:41:10 America/Lima] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\curso\expenses\views\login\index.php on line 12
+[05-Feb-2023 13:41:10 America/Lima] PHP Stack trace:
+[05-Feb-2023 13:41:10 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[05-Feb-2023 13:41:10 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[05-Feb-2023 13:41:10 America/Lima] PHP   3. Login->render() C:\xampp\htdocs\curso\expenses\libs\app.php:20
+[05-Feb-2023 13:41:10 America/Lima] PHP   4. View->render($nombre = 'login/index', $data = *uninitialized*) C:\xampp\htdocs\curso\expenses\controllers\login.php:13
+[05-Feb-2023 13:41:10 America/Lima] PHP   5. require() C:\xampp\htdocs\curso\expenses\libs\view.php:16
+[05-Feb-2023 13:41:10 America/Lima] PHP   6. session_start() C:\xampp\htdocs\curso\expenses\views\login\index.php:12
+[05-Feb-2023 16:20:31 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 16:20:31 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 16:20:31 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 16:20:31 America/Lima] sessionController::getUserSessionData(): marcos
+[05-Feb-2023 16:20:31 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 16:20:31 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[05-Feb-2023 16:20:31 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 16:20:31 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[05-Feb-2023 16:20:31 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[05-Feb-2023 16:20:31 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[05-Feb-2023 16:20:32 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 16:20:32 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 16:20:32 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 16:20:32 America/Lima] sessionController::getUserSessionData(): marcos
+[05-Feb-2023 16:20:32 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 16:20:32 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[05-Feb-2023 16:20:32 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 16:20:32 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[05-Feb-2023 16:20:32 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[05-Feb-2023 16:20:32 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[05-Feb-2023 16:21:35 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 16:21:35 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 16:21:35 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 16:21:35 America/Lima] sessionController::getUserSessionData(): marcos
+[05-Feb-2023 16:21:35 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 16:21:35 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[05-Feb-2023 16:21:35 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 16:21:35 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[05-Feb-2023 16:21:35 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[05-Feb-2023 16:21:35 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[05-Feb-2023 16:21:38 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 16:21:38 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 16:21:38 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 16:21:38 America/Lima] sessionController::getUserSessionData(): marcos
+[05-Feb-2023 16:21:38 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 16:21:38 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[05-Feb-2023 16:21:38 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 16:21:38 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[05-Feb-2023 16:21:38 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[05-Feb-2023 16:21:38 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[05-Feb-2023 16:22:26 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 16:22:26 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 16:22:26 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 16:22:26 America/Lima] sessionController::getUserSessionData(): marcos
+[05-Feb-2023 16:22:26 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 16:22:26 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[05-Feb-2023 16:22:26 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 16:22:26 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[05-Feb-2023 16:22:26 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[05-Feb-2023 16:22:26 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[05-Feb-2023 16:22:26 America/Lima] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\curso\expenses\views\dashboard\index.php on line 12
+[05-Feb-2023 16:22:26 America/Lima] PHP Stack trace:
+[05-Feb-2023 16:22:26 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[05-Feb-2023 16:22:26 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[05-Feb-2023 16:22:26 America/Lima] PHP   3. Dashboard->render() C:\xampp\htdocs\curso\expenses\libs\app.php:57
+[05-Feb-2023 16:22:26 America/Lima] PHP   4. View->render($nombre = 'dashboard/index', $data = *uninitialized*) C:\xampp\htdocs\curso\expenses\controllers\dashboard.php:13
+[05-Feb-2023 16:22:26 America/Lima] PHP   5. require() C:\xampp\htdocs\curso\expenses\libs\view.php:16
+[05-Feb-2023 16:22:28 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 16:22:28 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 16:22:28 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 16:22:28 America/Lima] sessionController::getUserSessionData(): marcos
+[05-Feb-2023 16:22:28 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 16:22:28 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[05-Feb-2023 16:22:28 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 16:22:28 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[05-Feb-2023 16:22:28 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[05-Feb-2023 16:22:28 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[05-Feb-2023 16:22:28 America/Lima] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\curso\expenses\views\dashboard\index.php on line 12
+[05-Feb-2023 16:22:28 America/Lima] PHP Stack trace:
+[05-Feb-2023 16:22:28 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[05-Feb-2023 16:22:28 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[05-Feb-2023 16:22:28 America/Lima] PHP   3. Dashboard->render() C:\xampp\htdocs\curso\expenses\libs\app.php:57
+[05-Feb-2023 16:22:28 America/Lima] PHP   4. View->render($nombre = 'dashboard/index', $data = *uninitialized*) C:\xampp\htdocs\curso\expenses\controllers\dashboard.php:13
+[05-Feb-2023 16:22:28 America/Lima] PHP   5. require() C:\xampp\htdocs\curso\expenses\libs\view.php:16
+[05-Feb-2023 16:22:28 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 16:22:28 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 16:22:28 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 16:22:28 America/Lima] sessionController::getUserSessionData(): marcos
+[05-Feb-2023 16:22:28 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 16:22:28 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[05-Feb-2023 16:22:28 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 16:22:28 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[05-Feb-2023 16:22:28 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[05-Feb-2023 16:22:28 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[05-Feb-2023 16:22:28 America/Lima] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\curso\expenses\views\dashboard\index.php on line 12
+[05-Feb-2023 16:22:28 America/Lima] PHP Stack trace:
+[05-Feb-2023 16:22:28 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[05-Feb-2023 16:22:28 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[05-Feb-2023 16:22:28 America/Lima] PHP   3. Dashboard->render() C:\xampp\htdocs\curso\expenses\libs\app.php:57
+[05-Feb-2023 16:22:28 America/Lima] PHP   4. View->render($nombre = 'dashboard/index', $data = *uninitialized*) C:\xampp\htdocs\curso\expenses\controllers\dashboard.php:13
+[05-Feb-2023 16:22:28 America/Lima] PHP   5. require() C:\xampp\htdocs\curso\expenses\libs\view.php:16
+[05-Feb-2023 16:22:28 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 16:22:28 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 16:22:28 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 16:22:28 America/Lima] sessionController::getUserSessionData(): marcos
+[05-Feb-2023 16:22:28 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 16:22:28 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[05-Feb-2023 16:22:28 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 16:22:28 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[05-Feb-2023 16:22:28 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[05-Feb-2023 16:22:28 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[05-Feb-2023 16:22:28 America/Lima] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\curso\expenses\views\dashboard\index.php on line 12
+[05-Feb-2023 16:22:28 America/Lima] PHP Stack trace:
+[05-Feb-2023 16:22:28 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[05-Feb-2023 16:22:28 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[05-Feb-2023 16:22:28 America/Lima] PHP   3. Dashboard->render() C:\xampp\htdocs\curso\expenses\libs\app.php:57
+[05-Feb-2023 16:22:28 America/Lima] PHP   4. View->render($nombre = 'dashboard/index', $data = *uninitialized*) C:\xampp\htdocs\curso\expenses\controllers\dashboard.php:13
+[05-Feb-2023 16:22:28 America/Lima] PHP   5. require() C:\xampp\htdocs\curso\expenses\libs\view.php:16
+[05-Feb-2023 16:22:29 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 16:22:29 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 16:22:29 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 16:22:29 America/Lima] sessionController::getUserSessionData(): marcos
+[05-Feb-2023 16:22:29 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 16:22:29 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[05-Feb-2023 16:22:29 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 16:22:29 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[05-Feb-2023 16:22:29 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[05-Feb-2023 16:22:29 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[05-Feb-2023 16:22:29 America/Lima] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\curso\expenses\views\dashboard\index.php on line 12
+[05-Feb-2023 16:22:29 America/Lima] PHP Stack trace:
+[05-Feb-2023 16:22:29 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[05-Feb-2023 16:22:29 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[05-Feb-2023 16:22:29 America/Lima] PHP   3. Dashboard->render() C:\xampp\htdocs\curso\expenses\libs\app.php:57
+[05-Feb-2023 16:22:29 America/Lima] PHP   4. View->render($nombre = 'dashboard/index', $data = *uninitialized*) C:\xampp\htdocs\curso\expenses\controllers\dashboard.php:13
+[05-Feb-2023 16:22:29 America/Lima] PHP   5. require() C:\xampp\htdocs\curso\expenses\libs\view.php:16
+[05-Feb-2023 16:22:29 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 16:22:29 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 16:22:29 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 16:22:29 America/Lima] sessionController::getUserSessionData(): marcos
+[05-Feb-2023 16:22:29 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 16:22:29 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[05-Feb-2023 16:22:29 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 16:22:29 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[05-Feb-2023 16:22:29 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[05-Feb-2023 16:22:29 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[05-Feb-2023 16:22:29 America/Lima] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\curso\expenses\views\dashboard\index.php on line 12
+[05-Feb-2023 16:22:29 America/Lima] PHP Stack trace:
+[05-Feb-2023 16:22:29 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[05-Feb-2023 16:22:29 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[05-Feb-2023 16:22:29 America/Lima] PHP   3. Dashboard->render() C:\xampp\htdocs\curso\expenses\libs\app.php:57
+[05-Feb-2023 16:22:29 America/Lima] PHP   4. View->render($nombre = 'dashboard/index', $data = *uninitialized*) C:\xampp\htdocs\curso\expenses\controllers\dashboard.php:13
+[05-Feb-2023 16:22:29 America/Lima] PHP   5. require() C:\xampp\htdocs\curso\expenses\libs\view.php:16
+[05-Feb-2023 16:22:29 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 16:22:29 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 16:22:29 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 16:22:29 America/Lima] sessionController::getUserSessionData(): marcos
+[05-Feb-2023 16:22:29 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 16:22:29 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[05-Feb-2023 16:22:29 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 16:22:29 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[05-Feb-2023 16:22:29 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[05-Feb-2023 16:22:29 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[05-Feb-2023 16:22:29 America/Lima] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\curso\expenses\views\dashboard\index.php on line 12
+[05-Feb-2023 16:22:29 America/Lima] PHP Stack trace:
+[05-Feb-2023 16:22:29 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[05-Feb-2023 16:22:29 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[05-Feb-2023 16:22:29 America/Lima] PHP   3. Dashboard->render() C:\xampp\htdocs\curso\expenses\libs\app.php:57
+[05-Feb-2023 16:22:29 America/Lima] PHP   4. View->render($nombre = 'dashboard/index', $data = *uninitialized*) C:\xampp\htdocs\curso\expenses\controllers\dashboard.php:13
+[05-Feb-2023 16:22:29 America/Lima] PHP   5. require() C:\xampp\htdocs\curso\expenses\libs\view.php:16
+[05-Feb-2023 16:22:29 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 16:22:29 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 16:22:29 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 16:22:29 America/Lima] sessionController::getUserSessionData(): marcos
+[05-Feb-2023 16:22:29 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 16:22:29 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[05-Feb-2023 16:22:29 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 16:22:29 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[05-Feb-2023 16:22:29 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[05-Feb-2023 16:22:29 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[05-Feb-2023 16:22:29 America/Lima] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\curso\expenses\views\dashboard\index.php on line 12
+[05-Feb-2023 16:22:29 America/Lima] PHP Stack trace:
+[05-Feb-2023 16:22:29 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[05-Feb-2023 16:22:29 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[05-Feb-2023 16:22:29 America/Lima] PHP   3. Dashboard->render() C:\xampp\htdocs\curso\expenses\libs\app.php:57
+[05-Feb-2023 16:22:29 America/Lima] PHP   4. View->render($nombre = 'dashboard/index', $data = *uninitialized*) C:\xampp\htdocs\curso\expenses\controllers\dashboard.php:13
+[05-Feb-2023 16:22:29 America/Lima] PHP   5. require() C:\xampp\htdocs\curso\expenses\libs\view.php:16
+[05-Feb-2023 16:22:45 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 16:22:45 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 16:22:45 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 16:22:45 America/Lima] sessionController::getUserSessionData(): marcos
+[05-Feb-2023 16:22:45 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 16:22:45 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[05-Feb-2023 16:22:45 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 16:22:45 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[05-Feb-2023 16:22:45 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[05-Feb-2023 16:22:45 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[05-Feb-2023 16:22:45 America/Lima] PHP Warning:  Undefined property: View::$user in C:\xampp\htdocs\curso\expenses\views\dashboard\index.php on line 12
+[05-Feb-2023 16:22:45 America/Lima] PHP Stack trace:
+[05-Feb-2023 16:22:45 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[05-Feb-2023 16:22:45 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[05-Feb-2023 16:22:45 America/Lima] PHP   3. Dashboard->render() C:\xampp\htdocs\curso\expenses\libs\app.php:57
+[05-Feb-2023 16:22:45 America/Lima] PHP   4. View->render($nombre = 'dashboard/index', $data = *uninitialized*) C:\xampp\htdocs\curso\expenses\controllers\dashboard.php:13
+[05-Feb-2023 16:22:45 America/Lima] PHP   5. require() C:\xampp\htdocs\curso\expenses\libs\view.php:16
+[05-Feb-2023 16:22:47 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 16:22:47 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 16:22:47 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 16:22:47 America/Lima] sessionController::getUserSessionData(): marcos
+[05-Feb-2023 16:22:47 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 16:22:47 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[05-Feb-2023 16:22:47 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 16:22:47 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[05-Feb-2023 16:22:47 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[05-Feb-2023 16:22:47 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[05-Feb-2023 16:22:47 America/Lima] PHP Warning:  Undefined property: View::$user in C:\xampp\htdocs\curso\expenses\views\dashboard\index.php on line 12
+[05-Feb-2023 16:22:47 America/Lima] PHP Stack trace:
+[05-Feb-2023 16:22:47 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[05-Feb-2023 16:22:47 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[05-Feb-2023 16:22:47 America/Lima] PHP   3. Dashboard->render() C:\xampp\htdocs\curso\expenses\libs\app.php:57
+[05-Feb-2023 16:22:47 America/Lima] PHP   4. View->render($nombre = 'dashboard/index', $data = *uninitialized*) C:\xampp\htdocs\curso\expenses\controllers\dashboard.php:13
+[05-Feb-2023 16:22:47 America/Lima] PHP   5. require() C:\xampp\htdocs\curso\expenses\libs\view.php:16
+[05-Feb-2023 16:24:56 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 16:24:56 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 16:24:56 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 16:24:57 America/Lima] sessionController::getUserSessionData(): marcos
+[05-Feb-2023 16:24:57 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 16:24:57 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[05-Feb-2023 16:24:57 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 16:24:57 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[05-Feb-2023 16:24:57 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[05-Feb-2023 16:24:57 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[05-Feb-2023 16:26:00 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 16:26:00 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 16:26:00 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 16:26:00 America/Lima] sessionController::getUserSessionData(): marcos
+[05-Feb-2023 16:26:00 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 16:26:00 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[05-Feb-2023 16:26:00 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 16:26:00 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[05-Feb-2023 16:26:00 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[05-Feb-2023 16:26:00 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[05-Feb-2023 16:26:11 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 16:26:11 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 16:26:11 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 16:26:11 America/Lima] sessionController::getUserSessionData(): marcos
+[05-Feb-2023 16:26:11 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 16:26:11 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[05-Feb-2023 16:26:11 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 16:26:11 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[05-Feb-2023 16:26:11 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[05-Feb-2023 16:26:11 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[05-Feb-2023 16:27:15 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 16:27:15 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 16:27:15 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 16:27:15 America/Lima] sessionController::getUserSessionData(): marcos
+[05-Feb-2023 16:27:15 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 16:27:15 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[05-Feb-2023 16:27:15 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 16:27:15 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[05-Feb-2023 16:27:15 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[05-Feb-2023 16:27:15 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[05-Feb-2023 16:28:14 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 16:28:14 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 16:28:14 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 16:28:14 America/Lima] sessionController::getUserSessionData(): marcos
+[05-Feb-2023 16:28:14 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 16:28:14 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[05-Feb-2023 16:28:14 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 16:28:14 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[05-Feb-2023 16:28:14 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[05-Feb-2023 16:28:14 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[05-Feb-2023 16:28:14 America/Lima] PHP Warning:  Undefined property: View::$user in C:\xampp\htdocs\curso\expenses\views\dashboard\index.php on line 12
+[05-Feb-2023 16:28:14 America/Lima] PHP Stack trace:
+[05-Feb-2023 16:28:14 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[05-Feb-2023 16:28:14 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[05-Feb-2023 16:28:14 America/Lima] PHP   3. Dashboard->render() C:\xampp\htdocs\curso\expenses\libs\app.php:57
+[05-Feb-2023 16:28:14 America/Lima] PHP   4. View->render($nombre = 'dashboard/index', $data = *uninitialized*) C:\xampp\htdocs\curso\expenses\controllers\dashboard.php:13
+[05-Feb-2023 16:28:14 America/Lima] PHP   5. require() C:\xampp\htdocs\curso\expenses\libs\view.php:16
+[05-Feb-2023 16:28:16 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 16:28:16 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 16:28:16 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 16:28:16 America/Lima] sessionController::getUserSessionData(): marcos
+[05-Feb-2023 16:28:16 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 16:28:16 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[05-Feb-2023 16:28:16 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 16:28:16 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[05-Feb-2023 16:28:16 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[05-Feb-2023 16:28:16 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[05-Feb-2023 16:28:16 America/Lima] PHP Warning:  Undefined property: View::$user in C:\xampp\htdocs\curso\expenses\views\dashboard\index.php on line 12
+[05-Feb-2023 16:28:16 America/Lima] PHP Stack trace:
+[05-Feb-2023 16:28:16 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[05-Feb-2023 16:28:16 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[05-Feb-2023 16:28:16 America/Lima] PHP   3. Dashboard->render() C:\xampp\htdocs\curso\expenses\libs\app.php:57
+[05-Feb-2023 16:28:16 America/Lima] PHP   4. View->render($nombre = 'dashboard/index', $data = *uninitialized*) C:\xampp\htdocs\curso\expenses\controllers\dashboard.php:13
+[05-Feb-2023 16:28:16 America/Lima] PHP   5. require() C:\xampp\htdocs\curso\expenses\libs\view.php:16
+[05-Feb-2023 16:28:38 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 16:28:38 America/Lima] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\curso\expenses\libs\app.php on line 11
+[05-Feb-2023 16:28:38 America/Lima] PHP Stack trace:
+[05-Feb-2023 16:28:38 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[05-Feb-2023 16:28:38 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[05-Feb-2023 16:28:38 America/Lima] PHP   3. rtrim($string = NULL, $characters = '/') C:\xampp\htdocs\curso\expenses\libs\app.php:11
+[05-Feb-2023 16:28:38 America/Lima] App::construct-> No hay controlador especificado
+[05-Feb-2023 16:28:38 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 16:28:38 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/, url =>
+[05-Feb-2023 16:28:38 America/Lima] sessionController::isPublic(): currentURL => 
+[05-Feb-2023 16:28:38 America/Lima] Login::construct -> Inicio de Login
+[05-Feb-2023 16:28:38 America/Lima] Login::render -> Carga el index del login
+[05-Feb-2023 16:28:42 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 16:28:42 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 16:28:42 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/login/authenticate, url =>login
+[05-Feb-2023 16:28:42 America/Lima] sessionController::isPublic(): currentURL => login
+[05-Feb-2023 16:28:42 America/Lima] Login::construct -> Inicio de Login
+[05-Feb-2023 16:28:42 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 16:28:43 America/Lima] LoginModel::login->sucess
+[05-Feb-2023 16:28:43 America/Lima] sessionController::initialize(): user: dieguito
+[05-Feb-2023 16:28:43 America/Lima] sessionController::authorizeAccess(): role: user
+[05-Feb-2023 16:28:43 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 16:28:43 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 16:28:43 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 16:28:43 America/Lima] sessionController::getUserSessionData(): dieguito
+[05-Feb-2023 16:28:43 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 16:28:43 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[05-Feb-2023 16:28:43 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 16:28:43 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[05-Feb-2023 16:28:43 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[05-Feb-2023 16:28:43 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[05-Feb-2023 16:28:43 America/Lima] PHP Warning:  Undefined property: View::$user in C:\xampp\htdocs\curso\expenses\views\dashboard\index.php on line 12
+[05-Feb-2023 16:28:43 America/Lima] PHP Stack trace:
+[05-Feb-2023 16:28:43 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[05-Feb-2023 16:28:43 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[05-Feb-2023 16:28:43 America/Lima] PHP   3. Dashboard->render() C:\xampp\htdocs\curso\expenses\libs\app.php:57
+[05-Feb-2023 16:28:43 America/Lima] PHP   4. View->render($nombre = 'dashboard/index', $data = *uninitialized*) C:\xampp\htdocs\curso\expenses\controllers\dashboard.php:13
+[05-Feb-2023 16:28:43 America/Lima] PHP   5. require() C:\xampp\htdocs\curso\expenses\libs\view.php:16
+[05-Feb-2023 16:52:18 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 16:52:18 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 16:52:18 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 16:52:18 America/Lima] sessionController::getUserSessionData(): dieguito
+[05-Feb-2023 16:52:18 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 16:52:18 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[05-Feb-2023 16:52:18 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 16:52:18 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[05-Feb-2023 16:52:18 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[05-Feb-2023 16:52:18 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[05-Feb-2023 16:52:18 America/Lima] PHP Warning:  Undefined property: View::$user in C:\xampp\htdocs\curso\expenses\views\dashboard\index.php on line 12
+[05-Feb-2023 16:52:18 America/Lima] PHP Stack trace:
+[05-Feb-2023 16:52:18 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[05-Feb-2023 16:52:18 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[05-Feb-2023 16:52:18 America/Lima] PHP   3. Dashboard->render() C:\xampp\htdocs\curso\expenses\libs\app.php:57
+[05-Feb-2023 16:52:18 America/Lima] PHP   4. View->render($nombre = 'dashboard/index', $data = *uninitialized*) C:\xampp\htdocs\curso\expenses\controllers\dashboard.php:15
+[05-Feb-2023 16:52:18 America/Lima] PHP   5. require() C:\xampp\htdocs\curso\expenses\libs\view.php:16
+[05-Feb-2023 16:52:19 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 16:52:19 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 16:52:19 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 16:52:19 America/Lima] sessionController::getUserSessionData(): dieguito
+[05-Feb-2023 16:52:19 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 16:52:19 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[05-Feb-2023 16:52:19 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 16:52:19 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[05-Feb-2023 16:52:19 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[05-Feb-2023 16:52:19 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[05-Feb-2023 16:52:19 America/Lima] PHP Warning:  Undefined property: View::$user in C:\xampp\htdocs\curso\expenses\views\dashboard\index.php on line 12
+[05-Feb-2023 16:52:19 America/Lima] PHP Stack trace:
+[05-Feb-2023 16:52:19 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[05-Feb-2023 16:52:19 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[05-Feb-2023 16:52:19 America/Lima] PHP   3. Dashboard->render() C:\xampp\htdocs\curso\expenses\libs\app.php:57
+[05-Feb-2023 16:52:19 America/Lima] PHP   4. View->render($nombre = 'dashboard/index', $data = *uninitialized*) C:\xampp\htdocs\curso\expenses\controllers\dashboard.php:15
+[05-Feb-2023 16:52:19 America/Lima] PHP   5. require() C:\xampp\htdocs\curso\expenses\libs\view.php:16
+[05-Feb-2023 16:52:40 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 16:52:40 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 16:52:40 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 16:52:40 America/Lima] sessionController::getUserSessionData(): dieguito
+[05-Feb-2023 16:52:40 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 16:52:40 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[05-Feb-2023 16:52:40 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 16:52:40 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[05-Feb-2023 16:52:40 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[05-Feb-2023 16:52:40 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[05-Feb-2023 16:52:42 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 16:52:42 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 16:52:42 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 16:52:42 America/Lima] sessionController::getUserSessionData(): dieguito
+[05-Feb-2023 16:52:42 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 16:52:42 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[05-Feb-2023 16:52:42 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 16:52:42 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[05-Feb-2023 16:52:42 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[05-Feb-2023 16:52:42 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[05-Feb-2023 16:52:43 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 16:52:43 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 16:52:43 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 16:52:43 America/Lima] sessionController::getUserSessionData(): dieguito
+[05-Feb-2023 16:52:43 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 16:52:43 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[05-Feb-2023 16:52:43 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 16:52:43 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[05-Feb-2023 16:52:43 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[05-Feb-2023 16:52:43 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[05-Feb-2023 16:52:44 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 16:52:44 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 16:52:44 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 16:52:44 America/Lima] sessionController::getUserSessionData(): dieguito
+[05-Feb-2023 16:52:44 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 16:52:44 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[05-Feb-2023 16:52:44 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 16:52:44 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[05-Feb-2023 16:52:44 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[05-Feb-2023 16:52:44 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[05-Feb-2023 16:53:02 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 16:53:02 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 16:53:02 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 16:53:02 America/Lima] sessionController::getUserSessionData(): dieguito
+[05-Feb-2023 16:53:02 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 16:53:02 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[05-Feb-2023 16:53:02 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 16:53:02 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[05-Feb-2023 16:53:02 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[05-Feb-2023 16:53:02 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[05-Feb-2023 16:53:14 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 16:53:14 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 16:53:14 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 16:53:14 America/Lima] sessionController::getUserSessionData(): dieguito
+[05-Feb-2023 16:53:14 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 16:53:14 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[05-Feb-2023 16:53:14 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 16:53:14 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[05-Feb-2023 16:53:14 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[05-Feb-2023 16:53:14 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[05-Feb-2023 16:53:16 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 16:53:16 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 16:53:16 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 16:53:16 America/Lima] sessionController::getUserSessionData(): dieguito
+[05-Feb-2023 16:53:16 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 16:53:16 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[05-Feb-2023 16:53:16 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 16:53:16 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[05-Feb-2023 16:53:16 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[05-Feb-2023 16:53:16 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[05-Feb-2023 16:53:25 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 16:53:25 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 16:53:25 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 16:53:25 America/Lima] sessionController::getUserSessionData(): dieguito
+[05-Feb-2023 16:53:25 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 16:53:25 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[05-Feb-2023 16:53:25 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 16:53:25 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[05-Feb-2023 16:53:25 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[05-Feb-2023 16:53:25 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[05-Feb-2023 16:53:25 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function getId() on array in C:\xampp\htdocs\curso\expenses\views\dashboard\index.php:13
+Stack trace:
+#0 C:\xampp\htdocs\curso\expenses\libs\view.php(16): require()
+#1 C:\xampp\htdocs\curso\expenses\controllers\dashboard.php(15): View->render('dashboard/index')
+#2 C:\xampp\htdocs\curso\expenses\libs\app.php(57): Dashboard->render()
+#3 C:\xampp\htdocs\curso\expenses\index.php(26): App->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\curso\expenses\views\dashboard\index.php on line 13
+[05-Feb-2023 16:53:33 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 16:53:33 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 16:53:33 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 16:53:33 America/Lima] sessionController::getUserSessionData(): dieguito
+[05-Feb-2023 16:53:33 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 16:53:33 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[05-Feb-2023 16:53:33 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 16:53:33 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[05-Feb-2023 16:53:33 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[05-Feb-2023 16:53:33 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[05-Feb-2023 16:53:33 America/Lima] PHP Warning:  Undefined property: View::$user in C:\xampp\htdocs\curso\expenses\views\dashboard\index.php on line 13
+[05-Feb-2023 16:53:33 America/Lima] PHP Stack trace:
+[05-Feb-2023 16:53:33 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[05-Feb-2023 16:53:33 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[05-Feb-2023 16:53:33 America/Lima] PHP   3. Dashboard->render() C:\xampp\htdocs\curso\expenses\libs\app.php:57
+[05-Feb-2023 16:53:33 America/Lima] PHP   4. View->render($nombre = 'dashboard/index', $data = *uninitialized*) C:\xampp\htdocs\curso\expenses\controllers\dashboard.php:15
+[05-Feb-2023 16:53:33 America/Lima] PHP   5. require() C:\xampp\htdocs\curso\expenses\libs\view.php:16
+[05-Feb-2023 16:53:33 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function getId() on null in C:\xampp\htdocs\curso\expenses\views\dashboard\index.php:13
+Stack trace:
+#0 C:\xampp\htdocs\curso\expenses\libs\view.php(16): require()
+#1 C:\xampp\htdocs\curso\expenses\controllers\dashboard.php(15): View->render('dashboard/index')
+#2 C:\xampp\htdocs\curso\expenses\libs\app.php(57): Dashboard->render()
+#3 C:\xampp\htdocs\curso\expenses\index.php(26): App->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\curso\expenses\views\dashboard\index.php on line 13
+[05-Feb-2023 16:53:34 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 16:53:34 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 16:53:34 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 16:53:34 America/Lima] sessionController::getUserSessionData(): dieguito
+[05-Feb-2023 16:53:34 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 16:53:34 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[05-Feb-2023 16:53:34 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 16:53:34 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[05-Feb-2023 16:53:34 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[05-Feb-2023 16:53:34 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[05-Feb-2023 16:53:34 America/Lima] PHP Warning:  Undefined property: View::$user in C:\xampp\htdocs\curso\expenses\views\dashboard\index.php on line 13
+[05-Feb-2023 16:53:34 America/Lima] PHP Stack trace:
+[05-Feb-2023 16:53:34 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[05-Feb-2023 16:53:34 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[05-Feb-2023 16:53:34 America/Lima] PHP   3. Dashboard->render() C:\xampp\htdocs\curso\expenses\libs\app.php:57
+[05-Feb-2023 16:53:34 America/Lima] PHP   4. View->render($nombre = 'dashboard/index', $data = *uninitialized*) C:\xampp\htdocs\curso\expenses\controllers\dashboard.php:15
+[05-Feb-2023 16:53:34 America/Lima] PHP   5. require() C:\xampp\htdocs\curso\expenses\libs\view.php:16
+[05-Feb-2023 16:53:34 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function getId() on null in C:\xampp\htdocs\curso\expenses\views\dashboard\index.php:13
+Stack trace:
+#0 C:\xampp\htdocs\curso\expenses\libs\view.php(16): require()
+#1 C:\xampp\htdocs\curso\expenses\controllers\dashboard.php(15): View->render('dashboard/index')
+#2 C:\xampp\htdocs\curso\expenses\libs\app.php(57): Dashboard->render()
+#3 C:\xampp\htdocs\curso\expenses\index.php(26): App->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\curso\expenses\views\dashboard\index.php on line 13
+[05-Feb-2023 16:53:41 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 16:53:41 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 16:53:41 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 16:53:41 America/Lima] sessionController::getUserSessionData(): dieguito
+[05-Feb-2023 16:53:41 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 16:53:41 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[05-Feb-2023 16:53:41 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 16:53:41 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[05-Feb-2023 16:53:41 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[05-Feb-2023 16:53:41 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[05-Feb-2023 16:53:41 America/Lima] PHP Warning:  Undefined property: View::$user in C:\xampp\htdocs\curso\expenses\views\dashboard\index.php on line 13
+[05-Feb-2023 16:53:41 America/Lima] PHP Stack trace:
+[05-Feb-2023 16:53:41 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[05-Feb-2023 16:53:41 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[05-Feb-2023 16:53:41 America/Lima] PHP   3. Dashboard->render() C:\xampp\htdocs\curso\expenses\libs\app.php:57
+[05-Feb-2023 16:53:41 America/Lima] PHP   4. View->render($nombre = 'dashboard/index', $data = *uninitialized*) C:\xampp\htdocs\curso\expenses\controllers\dashboard.php:15
+[05-Feb-2023 16:53:41 America/Lima] PHP   5. require() C:\xampp\htdocs\curso\expenses\libs\view.php:16
+[05-Feb-2023 16:53:46 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 16:53:46 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 16:53:46 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 16:53:46 America/Lima] sessionController::getUserSessionData(): dieguito
+[05-Feb-2023 16:53:46 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 16:53:46 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[05-Feb-2023 16:53:46 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 16:53:46 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[05-Feb-2023 16:53:46 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[05-Feb-2023 16:53:46 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[05-Feb-2023 16:53:52 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 16:53:52 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 16:53:52 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 16:53:52 America/Lima] sessionController::getUserSessionData(): dieguito
+[05-Feb-2023 16:53:52 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 16:53:52 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[05-Feb-2023 16:53:52 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 16:53:52 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[05-Feb-2023 16:53:52 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[05-Feb-2023 16:53:52 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[05-Feb-2023 16:53:52 America/Lima] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\curso\expenses\views\dashboard\index.php on line 13
+[05-Feb-2023 16:53:52 America/Lima] PHP Stack trace:
+[05-Feb-2023 16:53:52 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[05-Feb-2023 16:53:52 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[05-Feb-2023 16:53:52 America/Lima] PHP   3. Dashboard->render() C:\xampp\htdocs\curso\expenses\libs\app.php:57
+[05-Feb-2023 16:53:52 America/Lima] PHP   4. View->render($nombre = 'dashboard/index', $data = *uninitialized*) C:\xampp\htdocs\curso\expenses\controllers\dashboard.php:15
+[05-Feb-2023 16:53:52 America/Lima] PHP   5. require() C:\xampp\htdocs\curso\expenses\libs\view.php:16
+[05-Feb-2023 16:53:54 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 16:53:54 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 16:53:54 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 16:53:54 America/Lima] sessionController::getUserSessionData(): dieguito
+[05-Feb-2023 16:53:54 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 16:53:54 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[05-Feb-2023 16:53:54 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 16:53:54 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[05-Feb-2023 16:53:54 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[05-Feb-2023 16:53:54 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[05-Feb-2023 16:53:54 America/Lima] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\curso\expenses\views\dashboard\index.php on line 13
+[05-Feb-2023 16:53:54 America/Lima] PHP Stack trace:
+[05-Feb-2023 16:53:54 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[05-Feb-2023 16:53:54 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[05-Feb-2023 16:53:54 America/Lima] PHP   3. Dashboard->render() C:\xampp\htdocs\curso\expenses\libs\app.php:57
+[05-Feb-2023 16:53:54 America/Lima] PHP   4. View->render($nombre = 'dashboard/index', $data = *uninitialized*) C:\xampp\htdocs\curso\expenses\controllers\dashboard.php:15
+[05-Feb-2023 16:53:54 America/Lima] PHP   5. require() C:\xampp\htdocs\curso\expenses\libs\view.php:16
+[05-Feb-2023 16:54:28 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 16:54:28 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 16:54:28 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 16:54:28 America/Lima] sessionController::getUserSessionData(): dieguito
+[05-Feb-2023 16:54:28 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 16:54:28 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[05-Feb-2023 16:54:28 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 16:54:28 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[05-Feb-2023 16:54:28 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[05-Feb-2023 16:54:28 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[05-Feb-2023 16:57:35 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 16:57:35 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 16:57:35 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 16:57:35 America/Lima] sessionController::getUserSessionData(): marcos
+[05-Feb-2023 16:57:35 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 16:57:35 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[05-Feb-2023 16:57:35 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 16:57:35 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[05-Feb-2023 16:57:35 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[05-Feb-2023 16:57:35 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[05-Feb-2023 16:58:30 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 16:58:30 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 16:58:30 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 16:58:30 America/Lima] sessionController::getUserSessionData(): marcos
+[05-Feb-2023 16:58:30 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 16:58:30 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[05-Feb-2023 16:58:30 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 16:58:30 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[05-Feb-2023 16:58:30 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[05-Feb-2023 16:58:30 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[05-Feb-2023 16:58:30 America/Lima] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\curso\expenses\views\dashboard\index.php on line 13
+[05-Feb-2023 16:58:30 America/Lima] PHP Stack trace:
+[05-Feb-2023 16:58:30 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[05-Feb-2023 16:58:30 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[05-Feb-2023 16:58:30 America/Lima] PHP   3. Dashboard->render() C:\xampp\htdocs\curso\expenses\libs\app.php:57
+[05-Feb-2023 16:58:30 America/Lima] PHP   4. View->render($nombre = 'dashboard/index', $data = *uninitialized*) C:\xampp\htdocs\curso\expenses\controllers\dashboard.php:15
+[05-Feb-2023 16:58:30 America/Lima] PHP   5. require() C:\xampp\htdocs\curso\expenses\libs\view.php:16
+[05-Feb-2023 16:58:30 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function getId() on null in C:\xampp\htdocs\curso\expenses\views\dashboard\index.php:13
+Stack trace:
+#0 C:\xampp\htdocs\curso\expenses\libs\view.php(16): require()
+#1 C:\xampp\htdocs\curso\expenses\controllers\dashboard.php(15): View->render('dashboard/index')
+#2 C:\xampp\htdocs\curso\expenses\libs\app.php(57): Dashboard->render()
+#3 C:\xampp\htdocs\curso\expenses\index.php(26): App->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\curso\expenses\views\dashboard\index.php on line 13
+[05-Feb-2023 16:58:31 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 16:58:31 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 16:58:31 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 16:58:31 America/Lima] sessionController::getUserSessionData(): marcos
+[05-Feb-2023 16:58:31 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 16:58:31 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[05-Feb-2023 16:58:31 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 16:58:31 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[05-Feb-2023 16:58:31 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[05-Feb-2023 16:58:31 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[05-Feb-2023 16:58:31 America/Lima] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\curso\expenses\views\dashboard\index.php on line 13
+[05-Feb-2023 16:58:31 America/Lima] PHP Stack trace:
+[05-Feb-2023 16:58:31 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[05-Feb-2023 16:58:31 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[05-Feb-2023 16:58:31 America/Lima] PHP   3. Dashboard->render() C:\xampp\htdocs\curso\expenses\libs\app.php:57
+[05-Feb-2023 16:58:31 America/Lima] PHP   4. View->render($nombre = 'dashboard/index', $data = *uninitialized*) C:\xampp\htdocs\curso\expenses\controllers\dashboard.php:15
+[05-Feb-2023 16:58:31 America/Lima] PHP   5. require() C:\xampp\htdocs\curso\expenses\libs\view.php:16
+[05-Feb-2023 16:58:31 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function getId() on null in C:\xampp\htdocs\curso\expenses\views\dashboard\index.php:13
+Stack trace:
+#0 C:\xampp\htdocs\curso\expenses\libs\view.php(16): require()
+#1 C:\xampp\htdocs\curso\expenses\controllers\dashboard.php(15): View->render('dashboard/index')
+#2 C:\xampp\htdocs\curso\expenses\libs\app.php(57): Dashboard->render()
+#3 C:\xampp\htdocs\curso\expenses\index.php(26): App->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\curso\expenses\views\dashboard\index.php on line 13
+[05-Feb-2023 17:00:19 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 17:00:19 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 17:00:19 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 17:00:19 America/Lima] sessionController::getUserSessionData(): marcos
+[05-Feb-2023 17:00:19 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 17:00:19 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[05-Feb-2023 17:00:19 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 17:00:19 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[05-Feb-2023 17:00:19 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[05-Feb-2023 17:00:19 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[05-Feb-2023 17:00:19 America/Lima] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\curso\expenses\views\dashboard\index.php on line 13
+[05-Feb-2023 17:00:19 America/Lima] PHP Stack trace:
+[05-Feb-2023 17:00:19 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[05-Feb-2023 17:00:19 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:26
+[05-Feb-2023 17:00:19 America/Lima] PHP   3. Dashboard->render() C:\xampp\htdocs\curso\expenses\libs\app.php:57
+[05-Feb-2023 17:00:19 America/Lima] PHP   4. View->render($nombre = 'dashboard/index', $data = *uninitialized*) C:\xampp\htdocs\curso\expenses\controllers\dashboard.php:15
+[05-Feb-2023 17:00:19 America/Lima] PHP   5. require() C:\xampp\htdocs\curso\expenses\libs\view.php:16
+[05-Feb-2023 17:00:19 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function getId() on null in C:\xampp\htdocs\curso\expenses\views\dashboard\index.php:13
+Stack trace:
+#0 C:\xampp\htdocs\curso\expenses\libs\view.php(16): require()
+#1 C:\xampp\htdocs\curso\expenses\controllers\dashboard.php(15): View->render('dashboard/index')
+#2 C:\xampp\htdocs\curso\expenses\libs\app.php(57): Dashboard->render()
+#3 C:\xampp\htdocs\curso\expenses\index.php(26): App->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\curso\expenses\views\dashboard\index.php on line 13
+[05-Feb-2023 17:00:50 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 17:00:50 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 17:00:50 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 17:00:50 America/Lima] sessionController::getUserSessionData(): marcos
+[05-Feb-2023 17:00:50 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 17:00:50 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[05-Feb-2023 17:00:50 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 17:00:50 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[05-Feb-2023 17:00:50 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[05-Feb-2023 17:00:50 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[05-Feb-2023 17:00:50 America/Lima] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\curso\expenses\views\dashboard\index.php on line 13
+[05-Feb-2023 17:00:50 America/Lima] PHP Stack trace:
+[05-Feb-2023 17:00:50 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[05-Feb-2023 17:00:50 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:27
+[05-Feb-2023 17:00:50 America/Lima] PHP   3. Dashboard->render() C:\xampp\htdocs\curso\expenses\libs\app.php:57
+[05-Feb-2023 17:00:50 America/Lima] PHP   4. View->render($nombre = 'dashboard/index', $data = *uninitialized*) C:\xampp\htdocs\curso\expenses\controllers\dashboard.php:15
+[05-Feb-2023 17:00:50 America/Lima] PHP   5. require() C:\xampp\htdocs\curso\expenses\libs\view.php:16
+[05-Feb-2023 17:00:50 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function getId() on null in C:\xampp\htdocs\curso\expenses\views\dashboard\index.php:13
+Stack trace:
+#0 C:\xampp\htdocs\curso\expenses\libs\view.php(16): require()
+#1 C:\xampp\htdocs\curso\expenses\controllers\dashboard.php(15): View->render('dashboard/index')
+#2 C:\xampp\htdocs\curso\expenses\libs\app.php(57): Dashboard->render()
+#3 C:\xampp\htdocs\curso\expenses\index.php(27): App->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\curso\expenses\views\dashboard\index.php on line 13
+[05-Feb-2023 17:00:50 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 17:00:50 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 17:00:50 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 17:00:50 America/Lima] sessionController::getUserSessionData(): marcos
+[05-Feb-2023 17:00:50 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 17:00:50 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[05-Feb-2023 17:00:50 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 17:00:50 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[05-Feb-2023 17:00:50 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[05-Feb-2023 17:00:50 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[05-Feb-2023 17:00:50 America/Lima] PHP Warning:  Undefined array key "user" in C:\xampp\htdocs\curso\expenses\views\dashboard\index.php on line 13
+[05-Feb-2023 17:00:50 America/Lima] PHP Stack trace:
+[05-Feb-2023 17:00:50 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[05-Feb-2023 17:00:50 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:27
+[05-Feb-2023 17:00:50 America/Lima] PHP   3. Dashboard->render() C:\xampp\htdocs\curso\expenses\libs\app.php:57
+[05-Feb-2023 17:00:50 America/Lima] PHP   4. View->render($nombre = 'dashboard/index', $data = *uninitialized*) C:\xampp\htdocs\curso\expenses\controllers\dashboard.php:15
+[05-Feb-2023 17:00:50 America/Lima] PHP   5. require() C:\xampp\htdocs\curso\expenses\libs\view.php:16
+[05-Feb-2023 17:00:50 America/Lima] PHP Fatal error:  Uncaught Error: Call to a member function getId() on null in C:\xampp\htdocs\curso\expenses\views\dashboard\index.php:13
+Stack trace:
+#0 C:\xampp\htdocs\curso\expenses\libs\view.php(16): require()
+#1 C:\xampp\htdocs\curso\expenses\controllers\dashboard.php(15): View->render('dashboard/index')
+#2 C:\xampp\htdocs\curso\expenses\libs\app.php(57): Dashboard->render()
+#3 C:\xampp\htdocs\curso\expenses\index.php(27): App->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\curso\expenses\views\dashboard\index.php on line 13
+[05-Feb-2023 17:05:10 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 17:05:10 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 17:05:10 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 17:05:10 America/Lima] sessionController::getUserSessionData(): marcos
+[05-Feb-2023 17:05:10 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 17:05:10 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[05-Feb-2023 17:05:10 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 17:05:10 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[05-Feb-2023 17:05:10 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[05-Feb-2023 17:05:10 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[05-Feb-2023 17:05:12 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 17:05:12 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 17:05:12 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 17:05:12 America/Lima] sessionController::getUserSessionData(): marcos
+[05-Feb-2023 17:05:12 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 17:05:12 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[05-Feb-2023 17:05:12 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 17:05:12 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[05-Feb-2023 17:05:12 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[05-Feb-2023 17:05:12 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[05-Feb-2023 17:08:03 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 17:08:03 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 17:08:03 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 17:08:03 America/Lima] sessionController::getUserSessionData(): marcos
+[05-Feb-2023 17:08:03 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 17:08:03 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[05-Feb-2023 17:08:03 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 17:08:03 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[05-Feb-2023 17:08:03 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[05-Feb-2023 17:08:03 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 17:08:03 America/Lima] sessionController::getUserSessionData(): marcos
+[05-Feb-2023 17:08:03 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[05-Feb-2023 17:08:53 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 17:08:53 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 17:08:53 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 17:08:53 America/Lima] sessionController::getUserSessionData(): marcos
+[05-Feb-2023 17:08:53 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 17:08:53 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[05-Feb-2023 17:08:53 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 17:08:53 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[05-Feb-2023 17:08:53 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[05-Feb-2023 17:08:53 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 17:08:53 America/Lima] sessionController::getUserSessionData(): marcos
+[05-Feb-2023 17:08:53 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[05-Feb-2023 17:09:03 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 17:09:03 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 17:09:03 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 17:09:04 America/Lima] sessionController::getUserSessionData(): marcos
+[05-Feb-2023 17:09:04 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 17:09:04 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[05-Feb-2023 17:09:04 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 17:09:04 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[05-Feb-2023 17:09:04 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[05-Feb-2023 17:09:04 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 17:09:04 America/Lima] sessionController::getUserSessionData(): marcos
+[05-Feb-2023 17:09:04 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[05-Feb-2023 17:09:17 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 17:09:17 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 17:09:17 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 17:09:17 America/Lima] sessionController::getUserSessionData(): marcos
+[05-Feb-2023 17:09:17 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 17:09:17 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[05-Feb-2023 17:09:17 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 17:09:17 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[05-Feb-2023 17:09:17 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[05-Feb-2023 17:09:17 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 17:09:17 America/Lima] sessionController::getUserSessionData(): marcos
+[05-Feb-2023 17:09:17 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[05-Feb-2023 17:09:18 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 17:09:18 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 17:09:18 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 17:09:18 America/Lima] sessionController::getUserSessionData(): marcos
+[05-Feb-2023 17:09:18 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 17:09:18 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[05-Feb-2023 17:09:18 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 17:09:18 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[05-Feb-2023 17:09:18 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[05-Feb-2023 17:09:18 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 17:09:18 America/Lima] sessionController::getUserSessionData(): marcos
+[05-Feb-2023 17:09:18 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[05-Feb-2023 17:18:49 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 17:18:49 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 17:18:49 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 17:18:50 America/Lima] sessionController::getUserSessionData(): marcos
+[05-Feb-2023 17:18:50 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 17:18:50 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[05-Feb-2023 17:18:50 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 17:18:50 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[05-Feb-2023 17:18:50 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[05-Feb-2023 17:18:50 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[05-Feb-2023 17:43:31 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 17:43:31 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 17:43:31 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 17:43:32 America/Lima] sessionController::getUserSessionData(): marcos
+[05-Feb-2023 17:43:32 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 17:43:32 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[05-Feb-2023 17:43:32 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 17:43:32 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[05-Feb-2023 17:43:32 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[05-Feb-2023 17:43:32 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[05-Feb-2023 17:43:35 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 17:43:35 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 17:43:35 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 17:43:35 America/Lima] sessionController::getUserSessionData(): marcos
+[05-Feb-2023 17:43:35 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 17:43:35 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[05-Feb-2023 17:43:35 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 17:43:35 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[05-Feb-2023 17:43:35 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[05-Feb-2023 17:43:35 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[05-Feb-2023 17:59:51 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 17:59:51 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 17:59:51 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 17:59:51 America/Lima] sessionController::getUserSessionData(): marcos
+[05-Feb-2023 17:59:51 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 17:59:51 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[05-Feb-2023 17:59:51 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 17:59:51 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[05-Feb-2023 17:59:51 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[05-Feb-2023 17:59:51 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[05-Feb-2023 19:33:05 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 19:33:05 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 19:33:05 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 19:33:05 America/Lima] sessionController::getUserSessionData(): marcos
+[05-Feb-2023 19:33:05 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 19:33:05 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[05-Feb-2023 19:33:05 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 19:33:05 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[05-Feb-2023 19:33:05 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[05-Feb-2023 19:33:05 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[05-Feb-2023 20:39:59 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 20:39:59 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 20:39:59 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 20:39:59 America/Lima] sessionController::getUserSessionData(): marcos
+[05-Feb-2023 20:39:59 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 20:39:59 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[05-Feb-2023 20:39:59 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 20:39:59 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[05-Feb-2023 20:39:59 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[05-Feb-2023 20:39:59 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[05-Feb-2023 23:12:42 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 23:12:42 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 23:12:42 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 23:12:42 America/Lima] sessionController::getUserSessionData(): marcos
+[05-Feb-2023 23:12:42 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 23:12:42 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[05-Feb-2023 23:12:42 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 23:12:42 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[05-Feb-2023 23:12:42 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[05-Feb-2023 23:12:42 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[05-Feb-2023 23:22:51 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 23:22:51 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 23:22:51 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 23:22:51 America/Lima] sessionController::getUserSessionData(): marcos
+[05-Feb-2023 23:22:51 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 23:22:51 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[05-Feb-2023 23:22:51 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 23:22:51 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[05-Feb-2023 23:22:51 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[05-Feb-2023 23:22:51 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[05-Feb-2023 23:23:27 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 23:23:27 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 23:23:28 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 23:23:28 America/Lima] sessionController::getUserSessionData(): marcos
+[05-Feb-2023 23:23:28 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 23:23:28 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[05-Feb-2023 23:23:28 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 23:23:28 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[05-Feb-2023 23:23:28 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[05-Feb-2023 23:23:28 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[05-Feb-2023 23:23:28 America/Lima] PHP Fatal error:  Uncaught ArgumentCountError: date() expects at least 1 argument, 0 given in C:\xampp\htdocs\curso\expenses\views\dashboard\index.php:14
+Stack trace:
+#0 C:\xampp\htdocs\curso\expenses\views\dashboard\index.php(14): date()
+#1 C:\xampp\htdocs\curso\expenses\libs\view.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\curso\expenses\controllers\dashboard.php(18): View->render('dashboard/index')
+#3 C:\xampp\htdocs\curso\expenses\libs\app.php(57): Dashboard->render()
+#4 C:\xampp\htdocs\curso\expenses\index.php(27): App->__construct()
+#5 {main}
+  thrown in C:\xampp\htdocs\curso\expenses\views\dashboard\index.php on line 14
+[05-Feb-2023 23:25:16 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 23:25:16 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 23:25:16 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 23:25:17 America/Lima] sessionController::getUserSessionData(): marcos
+[05-Feb-2023 23:25:17 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 23:25:17 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[05-Feb-2023 23:25:17 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 23:25:17 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[05-Feb-2023 23:25:17 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[05-Feb-2023 23:25:17 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[05-Feb-2023 23:25:18 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 23:25:18 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 23:25:18 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 23:25:18 America/Lima] sessionController::getUserSessionData(): marcos
+[05-Feb-2023 23:25:18 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 23:25:18 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[05-Feb-2023 23:25:18 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 23:25:18 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[05-Feb-2023 23:25:18 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[05-Feb-2023 23:25:18 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[05-Feb-2023 23:30:58 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 23:30:58 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 23:30:58 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 23:30:58 America/Lima] sessionController::getUserSessionData(): marcos
+[05-Feb-2023 23:30:58 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 23:30:58 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[05-Feb-2023 23:30:58 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 23:30:58 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[05-Feb-2023 23:30:58 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[05-Feb-2023 23:30:58 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[05-Feb-2023 23:32:08 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 23:32:08 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 23:32:08 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 23:32:08 America/Lima] sessionController::getUserSessionData(): marcos
+[05-Feb-2023 23:32:08 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 23:32:08 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[05-Feb-2023 23:32:08 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 23:32:08 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[05-Feb-2023 23:32:08 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[05-Feb-2023 23:32:08 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[05-Feb-2023 23:32:29 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 23:32:29 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 23:32:29 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 23:32:29 America/Lima] sessionController::getUserSessionData(): marcos
+[05-Feb-2023 23:32:29 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 23:32:29 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[05-Feb-2023 23:32:29 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 23:32:29 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[05-Feb-2023 23:32:29 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[05-Feb-2023 23:32:29 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[05-Feb-2023 23:32:51 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 23:32:51 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 23:32:51 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 23:32:51 America/Lima] sessionController::getUserSessionData(): marcos
+[05-Feb-2023 23:32:51 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 23:32:51 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[05-Feb-2023 23:32:51 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 23:32:51 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[05-Feb-2023 23:32:51 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[05-Feb-2023 23:32:51 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[05-Feb-2023 23:33:09 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 23:33:09 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 23:33:09 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 23:33:10 America/Lima] sessionController::getUserSessionData(): marcos
+[05-Feb-2023 23:33:10 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 23:33:10 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[05-Feb-2023 23:33:10 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 23:33:10 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[05-Feb-2023 23:33:10 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[05-Feb-2023 23:33:10 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[05-Feb-2023 23:33:54 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 23:33:54 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 23:33:54 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 23:33:54 America/Lima] sessionController::getUserSessionData(): marcos
+[05-Feb-2023 23:33:54 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 23:33:54 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[05-Feb-2023 23:33:54 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 23:33:54 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[05-Feb-2023 23:33:54 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[05-Feb-2023 23:33:54 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[05-Feb-2023 23:33:56 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 23:33:56 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 23:33:56 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 23:33:56 America/Lima] sessionController::getUserSessionData(): marcos
+[05-Feb-2023 23:33:56 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 23:33:56 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[05-Feb-2023 23:33:56 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 23:33:56 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[05-Feb-2023 23:33:56 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[05-Feb-2023 23:33:56 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[05-Feb-2023 23:34:01 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 23:34:01 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 23:34:01 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 23:34:01 America/Lima] sessionController::getUserSessionData(): marcos
+[05-Feb-2023 23:34:01 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 23:34:01 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[05-Feb-2023 23:34:01 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 23:34:01 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[05-Feb-2023 23:34:01 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[05-Feb-2023 23:34:01 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[05-Feb-2023 23:34:02 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 23:34:02 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 23:34:02 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 23:34:03 America/Lima] sessionController::getUserSessionData(): marcos
+[05-Feb-2023 23:34:03 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 23:34:03 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[05-Feb-2023 23:34:03 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 23:34:03 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[05-Feb-2023 23:34:03 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[05-Feb-2023 23:34:03 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[05-Feb-2023 23:34:04 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 23:34:04 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 23:34:04 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 23:34:04 America/Lima] sessionController::getUserSessionData(): marcos
+[05-Feb-2023 23:34:04 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 23:34:04 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[05-Feb-2023 23:34:04 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 23:34:04 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[05-Feb-2023 23:34:04 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[05-Feb-2023 23:34:04 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[05-Feb-2023 23:35:41 America/Lima] Inicio de la Aplicación
+[05-Feb-2023 23:35:41 America/Lima] SESSIONCONTROLLER::validateSession
+[05-Feb-2023 23:35:41 America/Lima] Conexión a BD exitosa
+[05-Feb-2023 23:35:41 America/Lima] sessionController::getUserSessionData(): marcos
+[05-Feb-2023 23:35:41 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 23:35:41 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[05-Feb-2023 23:35:41 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[05-Feb-2023 23:35:41 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[05-Feb-2023 23:35:41 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[05-Feb-2023 23:35:41 America/Lima] Dashboard::render -> Carga el index del Dashboard
