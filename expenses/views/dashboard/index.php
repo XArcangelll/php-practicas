@@ -8,11 +8,7 @@
 </head>
 <body>
     <h1>Esta es la vista del dashboard</h1>
-
-
-  
-
-       
 <p><?php $this->showMessages() ?></p>
+
 </body>
 </html>

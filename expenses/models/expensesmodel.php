@@ -175,7 +175,7 @@ class ExpensesModel extends Model implements IModel{
         }
     }
 
-    public function getMaxAmountThisMonth($userid){
+    public function getMaxExpensesThisMonth($userid){
         try{
             $year = date("Y");
             $month = date("m");
@@ -221,6 +221,27 @@ class ExpensesModel extends Model implements IModel{
         }
     }
 
+    public function getTotalByMonthAndCategory($date,$categoryid,$userid){
+        try{
+            $total = 0;
+            $year = substr($date, 0, 4);
+            $month = substr($date, 5, 7);
+            $query = $this->db->connect()->prepare('SELECT SUM(amount) AS total from expenses WHERE category_id = :categoryid AND id_user = :user AND YEAR(date) = :year AND MONTH(date) = :month');
+            $query->execute(['categoryid' => $categoryid, 'user' => $userid, 'year' => $year, 'month' => $month]);
+
+            if($query->rowCount() > 0){
+                $total = $query->fetch(PDO::FETCH_ASSOC)['total'];
+            }else{
+                return 0;
+            }
+            
+            return $total;
+
+        }catch(PDOException $e){
+            return NULL;
+        }
+    }
+
     public function getNumberOfExpensesByCategoryThisMonth($categoryid, $userid){
         try{
             $total = 0;
@@ -244,6 +265,10 @@ class ExpensesModel extends Model implements IModel{
                 return NULL;
         }
     }
+
+
+
+
 
 
 

@@ -2,6 +2,8 @@
 
 require_once "models/expensesmodel.php";
 require_once "models/categoriesmodel.php";
+require_once "models/joinexpensescategoriesmodel.php";
+
 
 class Expenses extends SessionController{
     
@@ -72,7 +74,111 @@ class Expenses extends SessionController{
         foreach($expenses as $expense){
             array_push($months,substr($expense->getDate(),0,7));
         }
+
+        if(count($months) >3){
+            array_push($res,array_pop($months));
+            array_push($res,array_pop($months));
+            array_push($res,array_pop($months));
+        }
+
+        return $res;
         
+    }
+
+    function getCategoryList(){
+        $res = [];
+        $joinModel = new JoinExpensesCategoriesModel();
+        $expenses =  $joinModel->getAll($this->user->getId());
+
+        foreach($expenses as $expense){
+            array_push($res,$expense->getNameCategory());
+        }
+
+        $res = array_values(array_unique($res));
+
+        return $res;
+    }
+
+    function getCategoryColorList(){
+        $res = [];
+        $joinModel = new JoinExpensesCategoriesModel();
+        $expenses =  $joinModel->getAll($this->user->getId());
+
+        foreach($expenses as $expense){
+            array_push($res,$expense->getColor());
+        }
+        $res = array_unique($res);
+        $res = array_values(array_unique($res));
+
+        return $res;
+
+    }
+
+    function getHistoryJSON(){
+        header("Content-Type: application/json");
+        $res = [];
+        $joinModel = new JoinExpensesCategoriesModel();
+        $expenses =  $joinModel->getAll($this->user->getId());
+
+        foreach($expenses as $expense){
+            array_push($res,$expense->toArray());
+        }
+     
+        echo json_encode($res);
+    }
+
+    function getExpensesJSON(){
+        header("Content-Type: application/json");
+        $res = [];
+        $categoryIds = $this->getCategoriesId();
+        $categoryNames = $this->getCategoryList();
+        $categoryColors = $this->getCategoryColorList();
+
+        array_unshift($categoryNames, "mes");
+        array_unshift($categoryColors, "categories");
+
+        $months = $this->getDateList();
+
+        for($i=0; $i<count($months); $i++){
+                $item = array($months[$i]);
+            for($j=0; $i<count($categoryIds); $j++){
+                        $total = $this->getTotalByMonthAndCategory($months[$i],$categoryIds[$j]);
+                        array_push($item,$total);
+            }
+            array_push($res,$item);
+        }
+        array_unshift($res,$categoryNames);
+        array_unshift($res,$categoryColors);
+
+        echo json_encode($res);
+    }
+
+    private function getTotalByMonthAndCategory($date, $categoryid){
+        $iduser = $this->user->getId();
+       // $expenses = new ExpensesModel();
+       // $total = $expenses->getTotalByMonthAndCategory($date,$categoryid,$iduser);
+
+       $total = $this->model->getTotalByMonthAndCategory($date,$categoryid,$iduser);
+
+        if($total == null){
+            $total = 0;
+        }
+
+        return $total;
+    }
+
+    function delete($params){
+        if($params == null){
+            $this->redirect("expenses", []); //TODO: ERROR
+        }
+        $id = $params[0];
+        $res = $this->model->delete($id);
+
+        if($res){
+            $this->redirect("expenses",[]); //TODO successs
+        }else{
+            $this->redirect("expenses",[]); //TODO Error
+        }
     }
 
 

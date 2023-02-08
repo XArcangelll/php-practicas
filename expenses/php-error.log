@@ -1950,3 +1950,258 @@ Stack trace:
 [05-Feb-2023 23:35:41 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
 [05-Feb-2023 23:35:41 America/Lima] Dashboard::construct -> Inicio de Dashboard
 [05-Feb-2023 23:35:41 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[06-Feb-2023 12:24:36 America/Lima] Inicio de la Aplicación
+[06-Feb-2023 12:24:36 America/Lima] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\curso\expenses\libs\app.php on line 11
+[06-Feb-2023 12:24:36 America/Lima] PHP Stack trace:
+[06-Feb-2023 12:24:36 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[06-Feb-2023 12:24:36 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:27
+[06-Feb-2023 12:24:36 America/Lima] PHP   3. rtrim($string = NULL, $characters = '/') C:\xampp\htdocs\curso\expenses\libs\app.php:11
+[06-Feb-2023 12:24:36 America/Lima] App::construct-> No hay controlador especificado
+[06-Feb-2023 12:24:36 America/Lima] SESSIONCONTROLLER::validateSession
+[06-Feb-2023 12:24:36 America/Lima] Conexión a BD exitosa
+[06-Feb-2023 12:24:36 America/Lima] sessionController::getUserSessionData(): marcos
+[06-Feb-2023 12:24:36 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/, url =>
+[06-Feb-2023 12:24:36 America/Lima] sessionController::isPublic(): currentURL => 
+[06-Feb-2023 12:24:36 America/Lima] SessionController::validateSession() => sitio público, redirige al main de cada rol
+[06-Feb-2023 12:24:36 America/Lima] Login::construct -> Inicio de Login
+[06-Feb-2023 12:24:36 America/Lima] Login::render -> Carga el index del login
+[06-Feb-2023 12:24:37 America/Lima] Inicio de la Aplicación
+[06-Feb-2023 12:24:37 America/Lima] SESSIONCONTROLLER::validateSession
+[06-Feb-2023 12:24:37 America/Lima] Conexión a BD exitosa
+[06-Feb-2023 12:24:37 America/Lima] sessionController::getUserSessionData(): marcos
+[06-Feb-2023 12:24:37 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[06-Feb-2023 12:24:37 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[06-Feb-2023 12:24:37 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[06-Feb-2023 12:24:37 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[06-Feb-2023 12:24:37 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[06-Feb-2023 12:24:37 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[06-Feb-2023 13:28:32 America/Lima] Inicio de la Aplicación
+[06-Feb-2023 13:28:32 America/Lima] SESSIONCONTROLLER::validateSession
+[06-Feb-2023 13:28:32 America/Lima] Conexión a BD exitosa
+[06-Feb-2023 13:28:32 America/Lima] sessionController::getUserSessionData(): marcos
+[06-Feb-2023 13:28:32 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[06-Feb-2023 13:28:32 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[06-Feb-2023 13:28:32 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[06-Feb-2023 13:28:32 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[06-Feb-2023 13:28:32 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[06-Feb-2023 13:28:32 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[06-Feb-2023 13:42:28 America/Lima] Inicio de la Aplicación
+[06-Feb-2023 13:42:28 America/Lima] SESSIONCONTROLLER::validateSession
+[06-Feb-2023 13:42:28 America/Lima] Conexión a BD exitosa
+[06-Feb-2023 13:42:28 America/Lima] sessionController::getUserSessionData(): marcos
+[06-Feb-2023 13:42:28 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[06-Feb-2023 13:42:28 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[06-Feb-2023 13:42:28 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[06-Feb-2023 13:42:28 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[06-Feb-2023 13:42:28 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[06-Feb-2023 13:42:28 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[06-Feb-2023 14:39:09 America/Lima] Inicio de la Aplicación
+[06-Feb-2023 14:39:09 America/Lima] SESSIONCONTROLLER::validateSession
+[06-Feb-2023 14:39:09 America/Lima] Conexión a BD exitosa
+[06-Feb-2023 14:39:09 America/Lima] sessionController::getUserSessionData(): marcos
+[06-Feb-2023 14:39:09 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[06-Feb-2023 14:39:09 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[06-Feb-2023 14:39:09 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[06-Feb-2023 14:39:09 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[06-Feb-2023 14:39:09 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[06-Feb-2023 14:39:09 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[06-Feb-2023 15:53:48 America/Lima] Inicio de la Aplicación
+[06-Feb-2023 15:53:48 America/Lima] SESSIONCONTROLLER::validateSession
+[06-Feb-2023 15:53:48 America/Lima] Conexión a BD exitosa
+[06-Feb-2023 15:53:48 America/Lima] sessionController::getUserSessionData(): marcos
+[06-Feb-2023 15:53:48 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[06-Feb-2023 15:53:48 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[06-Feb-2023 15:53:48 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[06-Feb-2023 15:53:48 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[06-Feb-2023 15:53:48 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[06-Feb-2023 15:53:48 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[06-Feb-2023 16:01:30 America/Lima] Inicio de la Aplicación
+[06-Feb-2023 16:01:30 America/Lima] SESSIONCONTROLLER::validateSession
+[06-Feb-2023 16:01:30 America/Lima] Conexión a BD exitosa
+[06-Feb-2023 16:01:30 America/Lima] sessionController::getUserSessionData(): marcos
+[06-Feb-2023 16:01:30 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[06-Feb-2023 16:01:30 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[06-Feb-2023 16:01:30 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[06-Feb-2023 16:01:30 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[06-Feb-2023 16:01:30 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[06-Feb-2023 16:01:30 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[06-Feb-2023 16:27:41 America/Lima] Inicio de la Aplicación
+[06-Feb-2023 16:27:41 America/Lima] SESSIONCONTROLLER::validateSession
+[06-Feb-2023 16:27:41 America/Lima] Conexión a BD exitosa
+[06-Feb-2023 16:27:41 America/Lima] sessionController::getUserSessionData(): marcos
+[06-Feb-2023 16:27:41 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[06-Feb-2023 16:27:41 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[06-Feb-2023 16:27:41 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[06-Feb-2023 16:27:41 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[06-Feb-2023 16:27:41 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[06-Feb-2023 16:27:41 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[06-Feb-2023 18:07:13 America/Lima] Inicio de la Aplicación
+[06-Feb-2023 18:07:13 America/Lima] SESSIONCONTROLLER::validateSession
+[06-Feb-2023 18:07:13 America/Lima] Conexión a BD exitosa
+[06-Feb-2023 18:07:13 America/Lima] sessionController::getUserSessionData(): marcos
+[06-Feb-2023 18:07:13 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[06-Feb-2023 18:07:13 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[06-Feb-2023 18:07:13 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[06-Feb-2023 18:07:13 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[06-Feb-2023 18:07:13 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[06-Feb-2023 18:07:13 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[06-Feb-2023 18:40:54 America/Lima] Inicio de la Aplicación
+[06-Feb-2023 18:40:54 America/Lima] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\curso\expenses\libs\app.php on line 11
+[06-Feb-2023 18:40:54 America/Lima] PHP Stack trace:
+[06-Feb-2023 18:40:54 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[06-Feb-2023 18:40:54 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:27
+[06-Feb-2023 18:40:54 America/Lima] PHP   3. rtrim($string = NULL, $characters = '/') C:\xampp\htdocs\curso\expenses\libs\app.php:11
+[06-Feb-2023 18:40:54 America/Lima] App::construct-> No hay controlador especificado
+[06-Feb-2023 18:40:54 America/Lima] SESSIONCONTROLLER::validateSession
+[06-Feb-2023 18:40:54 America/Lima] Conexión a BD exitosa
+[06-Feb-2023 18:40:54 America/Lima] sessionController::getUserSessionData(): marcos
+[06-Feb-2023 18:40:54 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/, url =>
+[06-Feb-2023 18:40:54 America/Lima] sessionController::isPublic(): currentURL => 
+[06-Feb-2023 18:40:54 America/Lima] SessionController::validateSession() => sitio público, redirige al main de cada rol
+[06-Feb-2023 18:40:54 America/Lima] Login::construct -> Inicio de Login
+[06-Feb-2023 18:40:54 America/Lima] Login::render -> Carga el index del login
+[06-Feb-2023 18:40:54 America/Lima] Inicio de la Aplicación
+[06-Feb-2023 18:40:54 America/Lima] SESSIONCONTROLLER::validateSession
+[06-Feb-2023 18:40:54 America/Lima] Conexión a BD exitosa
+[06-Feb-2023 18:40:54 America/Lima] sessionController::getUserSessionData(): marcos
+[06-Feb-2023 18:40:54 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[06-Feb-2023 18:40:54 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[06-Feb-2023 18:40:54 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[06-Feb-2023 18:40:54 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[06-Feb-2023 18:40:54 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[06-Feb-2023 18:40:54 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[06-Feb-2023 18:41:44 America/Lima] Inicio de la Aplicación
+[06-Feb-2023 18:41:44 America/Lima] SESSIONCONTROLLER::validateSession
+[06-Feb-2023 18:41:44 America/Lima] Conexión a BD exitosa
+[06-Feb-2023 18:41:44 America/Lima] sessionController::getUserSessionData(): marcos
+[06-Feb-2023 18:41:44 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[06-Feb-2023 18:41:44 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[06-Feb-2023 18:41:44 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[06-Feb-2023 18:41:44 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[06-Feb-2023 18:41:44 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[06-Feb-2023 18:41:44 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[06-Feb-2023 19:46:37 America/Lima] Inicio de la Aplicación
+[06-Feb-2023 19:46:37 America/Lima] SESSIONCONTROLLER::validateSession
+[06-Feb-2023 19:46:37 America/Lima] Conexión a BD exitosa
+[06-Feb-2023 19:46:37 America/Lima] sessionController::getUserSessionData(): marcos
+[06-Feb-2023 19:46:37 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[06-Feb-2023 19:46:37 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[06-Feb-2023 19:46:37 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[06-Feb-2023 19:46:37 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[06-Feb-2023 19:46:37 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[06-Feb-2023 19:46:37 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[07-Feb-2023 16:53:36 America/Lima] Inicio de la Aplicación
+[07-Feb-2023 16:53:36 America/Lima] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\curso\expenses\libs\app.php on line 11
+[07-Feb-2023 16:53:36 America/Lima] PHP Stack trace:
+[07-Feb-2023 16:53:36 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[07-Feb-2023 16:53:36 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:27
+[07-Feb-2023 16:53:36 America/Lima] PHP   3. rtrim($string = NULL, $characters = '/') C:\xampp\htdocs\curso\expenses\libs\app.php:11
+[07-Feb-2023 16:53:36 America/Lima] App::construct-> No hay controlador especificado
+[07-Feb-2023 16:53:36 America/Lima] SESSIONCONTROLLER::validateSession
+[07-Feb-2023 16:53:36 America/Lima] Conexión a BD exitosa
+[07-Feb-2023 16:53:37 America/Lima] sessionController::getUserSessionData(): marcos
+[07-Feb-2023 16:53:37 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/, url =>
+[07-Feb-2023 16:53:37 America/Lima] sessionController::isPublic(): currentURL => 
+[07-Feb-2023 16:53:37 America/Lima] SessionController::validateSession() => sitio público, redirige al main de cada rol
+[07-Feb-2023 16:53:37 America/Lima] Login::construct -> Inicio de Login
+[07-Feb-2023 16:53:37 America/Lima] Login::render -> Carga el index del login
+[07-Feb-2023 16:53:37 America/Lima] Inicio de la Aplicación
+[07-Feb-2023 16:53:37 America/Lima] SESSIONCONTROLLER::validateSession
+[07-Feb-2023 16:53:37 America/Lima] Conexión a BD exitosa
+[07-Feb-2023 16:53:37 America/Lima] sessionController::getUserSessionData(): marcos
+[07-Feb-2023 16:53:37 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[07-Feb-2023 16:53:37 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[07-Feb-2023 16:53:37 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[07-Feb-2023 16:53:37 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[07-Feb-2023 16:53:37 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[07-Feb-2023 16:53:37 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[07-Feb-2023 22:20:11 America/Lima] Inicio de la Aplicación
+[07-Feb-2023 22:20:11 America/Lima] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\curso\expenses\libs\app.php on line 11
+[07-Feb-2023 22:20:11 America/Lima] PHP Stack trace:
+[07-Feb-2023 22:20:11 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[07-Feb-2023 22:20:11 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:27
+[07-Feb-2023 22:20:11 America/Lima] PHP   3. rtrim($string = NULL, $characters = '/') C:\xampp\htdocs\curso\expenses\libs\app.php:11
+[07-Feb-2023 22:20:11 America/Lima] App::construct-> No hay controlador especificado
+[07-Feb-2023 22:20:11 America/Lima] SESSIONCONTROLLER::validateSession
+[07-Feb-2023 22:20:11 America/Lima] Conexión a BD exitosa
+[07-Feb-2023 22:20:12 America/Lima] sessionController::getUserSessionData(): marcos
+[07-Feb-2023 22:20:12 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/, url =>
+[07-Feb-2023 22:20:12 America/Lima] sessionController::isPublic(): currentURL => 
+[07-Feb-2023 22:20:12 America/Lima] SessionController::validateSession() => sitio público, redirige al main de cada rol
+[07-Feb-2023 22:20:12 America/Lima] Login::construct -> Inicio de Login
+[07-Feb-2023 22:20:12 America/Lima] Login::render -> Carga el index del login
+[07-Feb-2023 22:20:12 America/Lima] Inicio de la Aplicación
+[07-Feb-2023 22:20:12 America/Lima] SESSIONCONTROLLER::validateSession
+[07-Feb-2023 22:20:12 America/Lima] Conexión a BD exitosa
+[07-Feb-2023 22:20:12 America/Lima] sessionController::getUserSessionData(): marcos
+[07-Feb-2023 22:20:12 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[07-Feb-2023 22:20:12 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[07-Feb-2023 22:20:12 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[07-Feb-2023 22:20:12 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[07-Feb-2023 22:20:12 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[07-Feb-2023 22:20:12 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[07-Feb-2023 22:20:14 America/Lima] Inicio de la Aplicación
+[07-Feb-2023 22:20:14 America/Lima] SESSIONCONTROLLER::validateSession
+[07-Feb-2023 22:20:14 America/Lima] Conexión a BD exitosa
+[07-Feb-2023 22:20:14 America/Lima] sessionController::getUserSessionData(): marcos
+[07-Feb-2023 22:20:14 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[07-Feb-2023 22:20:14 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[07-Feb-2023 22:20:14 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[07-Feb-2023 22:20:14 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[07-Feb-2023 22:20:14 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[07-Feb-2023 22:20:14 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[07-Feb-2023 22:20:27 America/Lima] Inicio de la Aplicación
+[07-Feb-2023 22:20:27 America/Lima] SESSIONCONTROLLER::validateSession
+[07-Feb-2023 22:20:27 America/Lima] Conexión a BD exitosa
+[07-Feb-2023 22:20:27 America/Lima] sessionController::getUserSessionData(): marcos
+[07-Feb-2023 22:20:27 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[07-Feb-2023 22:20:27 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[07-Feb-2023 22:20:27 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[07-Feb-2023 22:20:27 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[07-Feb-2023 22:20:27 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[07-Feb-2023 22:20:27 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[07-Feb-2023 22:20:29 America/Lima] Inicio de la Aplicación
+[07-Feb-2023 22:20:29 America/Lima] SESSIONCONTROLLER::validateSession
+[07-Feb-2023 22:20:29 America/Lima] Conexión a BD exitosa
+[07-Feb-2023 22:20:29 America/Lima] sessionController::getUserSessionData(): marcos
+[07-Feb-2023 22:20:29 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[07-Feb-2023 22:20:29 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[07-Feb-2023 22:20:29 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[07-Feb-2023 22:20:29 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[07-Feb-2023 22:20:29 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[07-Feb-2023 22:20:29 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[07-Feb-2023 22:21:08 America/Lima] Inicio de la Aplicación
+[07-Feb-2023 22:21:08 America/Lima] SESSIONCONTROLLER::validateSession
+[07-Feb-2023 22:21:08 America/Lima] Conexión a BD exitosa
+[07-Feb-2023 22:21:08 America/Lima] sessionController::getUserSessionData(): marcos
+[07-Feb-2023 22:21:08 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[07-Feb-2023 22:21:08 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[07-Feb-2023 22:21:08 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[07-Feb-2023 22:21:08 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[07-Feb-2023 22:21:08 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[07-Feb-2023 22:21:08 America/Lima] Dashboard::render -> Carga el index del Dashboard
+[07-Feb-2023 22:53:00 America/Lima] Inicio de la Aplicación
+[07-Feb-2023 22:53:00 America/Lima] PHP Deprecated:  rtrim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\curso\expenses\libs\app.php on line 11
+[07-Feb-2023 22:53:00 America/Lima] PHP Stack trace:
+[07-Feb-2023 22:53:00 America/Lima] PHP   1. {main}() C:\xampp\htdocs\curso\expenses\index.php:0
+[07-Feb-2023 22:53:00 America/Lima] PHP   2. App->__construct() C:\xampp\htdocs\curso\expenses\index.php:27
+[07-Feb-2023 22:53:00 America/Lima] PHP   3. rtrim($string = NULL, $characters = '/') C:\xampp\htdocs\curso\expenses\libs\app.php:11
+[07-Feb-2023 22:53:00 America/Lima] App::construct-> No hay controlador especificado
+[07-Feb-2023 22:53:00 America/Lima] SESSIONCONTROLLER::validateSession
+[07-Feb-2023 22:53:00 America/Lima] Conexión a BD exitosa
+[07-Feb-2023 22:53:00 America/Lima] sessionController::getUserSessionData(): marcos
+[07-Feb-2023 22:53:00 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/, url =>
+[07-Feb-2023 22:53:00 America/Lima] sessionController::isPublic(): currentURL => 
+[07-Feb-2023 22:53:00 America/Lima] SessionController::validateSession() => sitio público, redirige al main de cada rol
+[07-Feb-2023 22:53:00 America/Lima] Login::construct -> Inicio de Login
+[07-Feb-2023 22:53:00 America/Lima] Login::render -> Carga el index del login
+[07-Feb-2023 22:53:00 America/Lima] Inicio de la Aplicación
+[07-Feb-2023 22:53:00 America/Lima] SESSIONCONTROLLER::validateSession
+[07-Feb-2023 22:53:00 America/Lima] Conexión a BD exitosa
+[07-Feb-2023 22:53:00 America/Lima] sessionController::getUserSessionData(): marcos
+[07-Feb-2023 22:53:00 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[07-Feb-2023 22:53:00 America/Lima] sessionController::isPublic(): currentURL => dashboard
+[07-Feb-2023 22:53:00 America/Lima] sessionController::getCurrentPage(): actualLink =>/curso/expenses/dashboard, url =>dashboard
+[07-Feb-2023 22:53:00 America/Lima] SessionController::validateSession() => autorizado, lo deja pasar
+[07-Feb-2023 22:53:00 America/Lima] Dashboard::construct -> Inicio de Dashboard
+[07-Feb-2023 22:53:00 America/Lima] Dashboard::render -> Carga el index del Dashboard
