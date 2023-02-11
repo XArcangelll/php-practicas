@@ -2,8 +2,7 @@
 
 require_once "classes/session.php";
 require_once "models/usermodel.php";
-require_once "models/expensesmodel.php";
-require_once "models/categoriesmodel.php";
+
 
 class SessionController extends Controller{
     private $userSession;

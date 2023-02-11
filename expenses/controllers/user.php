@@ -20,39 +20,39 @@ require_once "models/usermodel.php";
         }
 
         function updateBudget(){
-                if(!$this->existPOST("budget")){
-                    $this->redirect("user",[]); //TODO
+                if(!$this->existPOST(["budget"])){
+                    $this->redirect("user",["error"=> ErrorMessages::ERROR_USER_UPDATEBUDGET]); //TODO
                     return ;
                 }
 
                 $budget = $this->getPost("budget");
 
-                if(empty($budget) || $budget = 0 || $budget < 0){
-                    $this->redirect("user",[]);
+                if(empty($budget) || $budget == 0 || $budget < 0){
+                    $this->redirect("user",["error"=> ErrorMessages::ERROR_USER_UPDATEBUDGET_EMPTY]);
                     return;
                 }
                 $this->user->setBudget($budget);
                 if($this->user->update()){
-                        $this->redirect("user",[]); //TODO
+                        $this->redirect("user",["success"=> SuccessMessages::SUCCESS_USER_UPDATEBUDGET]); //TODO
                 }               
 
         }
 
         function updateName(){
             if(!$this->existPOST(["name"])){
-                $this->redirect("user",[]); //TODO
+                $this->redirect("user",["error"=> ErrorMessages::ERROR_USER_UPDATENAME]); //TODO
                 return ;
             }
 
             $name = $this->getPost("name");
 
             if(empty($name) || $name == null ){
-                $this->redirect("user",[]);
+                $this->redirect("user",["error"=> ErrorMessages::ERROR_USER_UPDATENAME_EMPTY]);
                 return;
             }
             $this->user->setName($name);
             if($this->user->update()){
-                    $this->redirect("user",[]); //TODO
+                    $this->redirect("user",["success"=> SuccessMessages::SUCCESS_USER_UPDATENAME]); //TODO
             }               
 
         }
@@ -60,19 +60,19 @@ require_once "models/usermodel.php";
         function updatePassword(){
 
             if(!$this->existPOST(["current_password","new_password"])){
-                $this->redirect("user",[]); //TODO
+                $this->redirect("user",["error"=> ErrorMessages::ERROR_USER_UPDATEPASSWORD]); //TODO
                 return ;
             }
             $current = $this->getPost("current_password");
             $new = $this->getPost("new_password");
 
             if(empty($current) || $current == null || empty($new) || $new == null){
-                $this->redirect("user",[]);
+                $this->redirect("user",["error"=> ErrorMessages::ERROR_USER_UPDATEPASSWORD_EMPTY]);
                 return;
             }
 
             if($current === $new){
-                $this->redirect("user",[]); //TODO
+                $this->redirect("user",["error"=> ErrorMessages::ERROR_USER_UPDATEPASSWORD_ISNOTTHESAME]); //TODO
                 return;
             }
 
@@ -81,14 +81,14 @@ require_once "models/usermodel.php";
                 $this->user->setPassword($new);
 
                 if($this->user->update()){
-                    $this->redirect("user",[]); //TODO
+                    $this->redirect("user",["success"=> SuccessMessages::SUCCESS_USER_UPDATEPASSWORD]); //TODO
                     return;
                 }else{
-                    $this->redirect("user",[]); //TODO
+                    $this->redirect("user",["error"=> ErrorMessages::ERROR_USER_UPDATEPASSWORD]); //TODO
                     return;
                 }
             }else{
-                $this->redirect("user",[]); //TODO
+                $this->redirect("user",["error"=> ErrorMessages::ERROR_USER_UPDATEPASSWORD]); //TODO
                 return;
             }
 
@@ -97,7 +97,7 @@ require_once "models/usermodel.php";
         public function updatePhoto(){
 
             if(!isset($_FILES["photo"])){
-                $this->redirect("user",[]); //TODO
+                $this->redirect("user",["error"=> ErrorMessages::ERROR_USER_UPDATEPHOTO]); //TODO
                 return;
             }
 
@@ -123,17 +123,17 @@ require_once "models/usermodel.php";
             }
 
             if(!$uploadOk){
-                $this->redirect("user",[]); //TODO
+                $this->redirect("user",["error"=> ErrorMessages::ERROR_USER_UPDATEPHOTO_FORMAT]); //TODO
                 return;
             }else{
                 if(move_uploaded_file($photo["tmp_name"],$targetFile)){
                     $this->user->setPhoto($hash);
                     $this->user->update();
                   //  $this->model->updatePhoto($hash,$this->user->getId());
-                    $this->redirect("user",[]); //TODO
+                    $this->redirect("user",["success"=> SuccessMessages::SUCCESS_USER_UPDATEPHOTO]); //TODO
                     return;
                 }else{
-                    $this->redirect("user",[]); //TODO
+                    $this->redirect("user",["error"=> ErrorMessages::ERROR_USER_UPDATEPHOTO]); //TODO
                     return;
                 }
             }

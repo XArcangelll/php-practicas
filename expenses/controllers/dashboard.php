@@ -1,6 +1,9 @@
 <?php
 
 
+require_once "models/expensesmodel.php";
+require_once "models/categoriesmodel.php";
+
 class Dashboard extends SessionController{
 
     private $user;
@@ -39,25 +42,28 @@ class Dashboard extends SessionController{
     }
 
     public function getCategories(){
-            $res = [];
-            $categoriesModel = new CategoriesModel();
-            $expensesModel = new ExpensesModel();
+        $res = [];
+        $categoriesModel = new CategoriesModel();
+        $expensesModel = new ExpensesModel();
 
-            $categories = $categoriesModel->getAll();
+        $categories = $categoriesModel->getAll();
 
-            foreach($categories as $category){
-                $categoryArray = [];
-                $total = $expensesModel->getTotalByCategoryThisMonth($category->getId(),$this->user->getId());
-                $numberOfExpenses = $expensesModel->getNumberOfExpensesByCategoryThisMonth($category->getId(),$this->user->getId());
-
-                if($numberOfExpenses > 0){
-                    $categoryArray['total'] = $total;
-                    $categoryArray['count'] = $numberOfExpenses;
-                    $categoryArray['category'] = $category;
-                    array_push($res, $categoryArray);
-                }
+        foreach ($categories as $category) {
+            $categoryArray = [];
+            //obtenemos la suma de amount de expenses por categoria
+            $total = $expensesModel->getTotalByCategoryThisMonth($category->getId(), $this->user->getId());
+            // obtenemos el número de expenses por categoria por mes
+            $numberOfExpenses = $expensesModel->getNumberOfExpensesByCategoryThisMonth($category->getId(), $this->user->getId());
+            
+            if($numberOfExpenses > 0){
+                $categoryArray["total"] = $total;
+                $categoryArray["count"] = $numberOfExpenses;
+                $categoryArray["category"] = $category;
+                array_push($res, $categoryArray);
             }
-            return $res;
+            
+        }
+        return $res;
     }
 
     

@@ -17,19 +17,21 @@ class Expenses extends SessionController{
 
     function render(){
         $this->view->render("expenses/index",[
-            "user" => $this->user
+            "user" => $this->user,
+            "dates" => $this->getDateList(),
+            "categories" =>  $this->getCategoryList()
         ]);
       
     }
 
     function newExpenses(){
         if(!$this->existPOST(["title","amount","category","date"])){
-            $this->redirect("dashboard",[]); //todo error
+            $this->redirect("dashboard",["error"=> ErrorMessages::ERROR_EXPENSES_NEWEXPENSE_EMPTY]); //todo error
             return;
         }
 
         if($this->user == null){
-            $this->redirect("dashboard",[]); //TODO: error
+            $this->redirect("dashboard",["error"=> ErrorMessages::ERROR_EXPENSES_NEWEXPENSE]); //TODO: error
             return;
         }
 
@@ -42,7 +44,7 @@ class Expenses extends SessionController{
         $expense->setUserId($this->user->getId());
 
         $expense->save();
-        $this->redirect("dashboard",[]); //TODO : success
+        $this->redirect("dashboard",["success"=> SuccessMessages::SUCCESS_EXPENSES_NEWEXPENSE]); //TODO : success
     }
 
     function create(){
@@ -66,23 +68,29 @@ class Expenses extends SessionController{
         return $res;
     }
 
-    private function getDateList(){
+     // crea una lista con los meses donde hay expenses
+     public function getDateList(){
         $months = [];
         $res = [];
         $joinModel = new JoinExpensesCategoriesModel();
-        $expenses =  $joinModel->getAll($this->user->getId());
-        foreach($expenses as $expense){
-            array_push($months,substr($expense->getDate(),0,7));
-        }
+        $expenses = $joinModel->getAll($this->user->getId());
 
-        if(count($months) >3){
-            array_push($res,array_pop($months));
-            array_push($res,array_pop($months));
-            array_push($res,array_pop($months));
+        foreach ($expenses as $expense) {
+            array_push($months, substr($expense->getDate(),0, 7 ));
         }
+        $months = array_values(array_unique($months));
 
+        foreach($months as $month){
+            array_push($res,$month);
+        }
+        //mostrar los últimos 3 meses
+      /*  if(count($months) >3){
+            array_push($res, array_pop($months));
+            array_push($res, array_pop($months));
+            array_push($res, array_pop($months));
+        }*/
+        error_log("EXPENSES::getDateList->" . count($res));
         return $res;
-        
     }
 
     function getCategoryList(){
@@ -127,33 +135,37 @@ class Expenses extends SessionController{
         echo json_encode($res);
     }
 
-    function getExpensesJSON(){
-        header("Content-Type: application/json");
+    public function getExpensesJSON(){
+        header('Content-Type: application/json');
+
         $res = [];
-        $categoryIds = $this->getCategoriesId();
-        $categoryNames = $this->getCategoryList();
+        $categoryIds     = $this->getCategoriesId();
+        $categoryNames  = $this->getCategoryList();
         $categoryColors = $this->getCategoryColorList();
 
-        array_unshift($categoryNames, "mes");
-        array_unshift($categoryColors, "categories");
+        array_unshift($categoryNames, 'mes');
+        array_unshift($categoryColors, 'categorias');
+        /* array_unshift($categoryNames, 'categorias');
+        array_unshift($categoryColors, NULL); */
 
         $months = $this->getDateList();
 
-        for($i=0; $i<count($months); $i++){
-                $item = array($months[$i]);
-            for($j=0; $i<count($categoryIds); $j++){
-                        $total = $this->getTotalByMonthAndCategory($months[$i],$categoryIds[$j]);
-                        array_push($item,$total);
-            }
-            array_push($res,$item);
+        for($i = 0; $i < count($months); $i++){
+            $item = array($months[$i]);
+            for($j = 0; $j < count($categoryIds); $j++){
+                $total = $this->getTotalByMonthAndCategory( $months[$i], $categoryIds[$j]);
+                array_push( $item, $total );
+            }   
+            array_push($res, $item);
         }
-        array_unshift($res,$categoryNames);
-        array_unshift($res,$categoryColors);
 
+        array_unshift($res, $categoryNames);
+        array_unshift($res, $categoryColors);
+        
         echo json_encode($res);
     }
 
-    private function getTotalByMonthAndCategory($date, $categoryid){
+    public function getTotalByMonthAndCategory($date, $categoryid){
         $iduser = $this->user->getId();
        // $expenses = new ExpensesModel();
        // $total = $expenses->getTotalByMonthAndCategory($date,$categoryid,$iduser);
@@ -169,15 +181,19 @@ class Expenses extends SessionController{
 
     function delete($params){
         if($params == null){
-            $this->redirect("expenses", []); //TODO: ERROR
+            $this->redirect("expenses", ["error"=> ErrorMessages::ERROR_EXPENSES_DELETE]); //TODO: ERROR
+            error_log("Expenses::delete-> params null");
         }
         $id = $params[0];
         $res = $this->model->delete($id);
 
         if($res){
-            $this->redirect("expenses",[]); //TODO successs
+            error_log("Expenses::delete-> Eliminado");
+            $this->redirect("expenses",["success"=> SuccessMessages::SUCCESS_EXPENSES_DELETE]); //TODO successs
+            
         }else{
-            $this->redirect("expenses",[]); //TODO Error
+            error_log("Expenses::delete-> Error");
+            $this->redirect("expenses",["error"=> ErrorMessages::ERROR_EXPENSES_DELETE]); //TODO Error
         }
     }
 

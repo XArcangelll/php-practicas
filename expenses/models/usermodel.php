@@ -73,8 +73,8 @@ class UserModel extends Model implements IModel{
             $user = $query->fetch(PDO::FETCH_ASSOC);
                 $this->setId($user["id"]);
                 $this->setUsername($user['username']);
-               // $this->setPassword($user['password']);
-                $this->password = $user['password'];
+                $this->setPassword($user['password'],false);
+                //$this->password = $user['password'];
                 $this->setRole($user['role']);
                 $this->setBudget($user['budget']);
                 $this->setPhoto($user['photo']);

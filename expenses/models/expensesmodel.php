@@ -197,27 +197,25 @@ class ExpensesModel extends Model implements IModel{
         }
     }
 
-    public function getTotalByCategoryThisMonth($categoryid, $userid){
+    /**
+     * Obtiene el total de amount de expenses basado en id de categoria
+     */
+    function getTotalByCategoryThisMonth($categoryid, $userid){
+        error_log("ExpensesModel::getTotalByCategoryThisMonth");
         try{
             $total = 0;
-            $year = date("Y");
-            $month = date("m");
-            $query = $this->prepare('SELECT SUM(amount) as total FROM expenses WHERE category_id = :categoryid AND YEAR(date) = :year AND MONTH(date) = :month AND id_user = :userid');
-           $query->execute([
-            "category_id"=>$categoryid,
-            "userid"=>$userid,
-            "year"=>$year,
-            "month"=>$month
-            ]);
+            $year = date('Y');
+            $month = date('m');
+            $query = $this->prepare('SELECT SUM(amount) AS total from expenses WHERE category_id = :categoryid AND id_user = :userid AND YEAR(date) = :year AND MONTH(date) = :month');
+            $query->execute(['categoryid' => $categoryid, 'userid' => $userid, 'year' => $year, 'month' => $month]);
             
             $total = $query->fetch(PDO::FETCH_ASSOC)["total"];
-
-            if($total == null) $total = 0;
-
+            if($total == NULL) return 0;
             return $total;
 
         }catch(PDOException $e){
-                return NULL;
+            error_log("**ERROR: ExpensesModel::getTotalByCategoryThisMonth: error: " . $e);
+            return NULL;
         }
     }
 
@@ -242,27 +240,23 @@ class ExpensesModel extends Model implements IModel{
         }
     }
 
-    public function getNumberOfExpensesByCategoryThisMonth($categoryid, $userid){
+    /**
+     * Obtiene el total de amount de expenses basado en id de categoria
+     */
+    function getNumberOfExpensesByCategoryThisMonth($categoryid, $userid){
         try{
             $total = 0;
-            $year = date("Y");
-            $month = date("m");
-            $query = $this->prepare('SELECT COUNT(amount) as total FROM expenses WHERE category_id = :categoryid AND YEAR(date) = :year AND MONTH(date) = :month AND id_user = :userid');
-           $query->execute([
-            "category_id"=>$categoryid,
-            "userid"=>$userid,
-            "year"=>$year,
-            "month"=>$month
-            ]);
-            
-            $total = $query->fetch(PDO::FETCH_ASSOC)["total"];
+            $year = date('Y');
+            $month = date('m');
+            $query = $this->prepare('SELECT COUNT(id) AS total from expenses WHERE category_id = :categoryid AND id_user = :userid AND YEAR(date) = :year AND MONTH(date) = :month');
+            $query->execute(['categoryid' => $categoryid, 'userid' => $userid, 'year' => $year, 'month' => $month]);
 
-            if($total == null) $total = 0;
-
+            $total = $query->fetch(PDO::FETCH_ASSOC)['total'];
+            if($total == NULL) return 0;
             return $total;
 
         }catch(PDOException $e){
-                return NULL;
+            return NULL;
         }
     }
 
